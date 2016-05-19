@@ -7,7 +7,7 @@ import android.graphics.Color;
 import android.os.Bundle;
 import android.widget.TextView;
 
-public class About extends Activity {
+public class About_Screen extends Activity {
 
 	public static final String copyright  = "\u00a9";
 	TextView labelLeyenda, labelAuthors;

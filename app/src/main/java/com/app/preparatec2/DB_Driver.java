@@ -12,9 +12,8 @@ import android.database.SQLException;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteException;
 import android.database.sqlite.SQLiteOpenHelper;
-import android.util.Log;
 
-public class DbHelper extends SQLiteOpenHelper{
+public class DB_Driver extends SQLiteOpenHelper{
 
 	private static String DB_PATH = "";
 
@@ -28,7 +27,7 @@ public class DbHelper extends SQLiteOpenHelper{
 	private final Context myContext;
 
 
-	public DbHelper(Context context) {
+	public DB_Driver(Context context) {
 
 		super(context, DB_NAME, null, 1);
 		DB_PATH = "/data/data/" + context.getPackageName() + "/databases/";
@@ -134,9 +133,9 @@ public class DbHelper extends SQLiteOpenHelper{
 
 	}
 
-	public List<Pregunta> getItemInfo() {
+	public List<Question_Template> getItemInfo() {
 
-		List<Pregunta> quesList = new ArrayList<Pregunta>();
+		List<Question_Template> quesList = new ArrayList<Question_Template>();
 		String selectQuery = "SELECT  * FROM " + TABLE_PREG;
 		myDataBase=this.getReadableDatabase();
 		Cursor cursor = myDataBase.rawQuery(selectQuery, null);
@@ -149,7 +148,7 @@ public class DbHelper extends SQLiteOpenHelper{
 				//Log.d("Cursor opcC",cursor.getString(5));
 				//Log.d("Cursor opcD",cursor.getString(6));
 				//Log.d("Cursor opcE",cursor.getString(7));
-				Pregunta quest = new Pregunta();
+				Question_Template quest = new Question_Template();
 				//quest.setID(cursor.getInt(0));
 				//quest.setQUESTION(cursor.getString(1));
 				quest.setOpcA(cursor.getString(0));
@@ -164,9 +163,9 @@ public class DbHelper extends SQLiteOpenHelper{
 		return quesList;
 	}
 
-	public List<Pregunta> getItems() {
+	public List<Question_Template> getItems() {
 
-		List<Pregunta> quesList = new ArrayList<Pregunta>();
+		List<Question_Template> quesList = new ArrayList<Question_Template>();
 		String selectQuery = "SELECT  * FROM " + TABLEItem;
 		myDataBase=this.getReadableDatabase();
 		Cursor cursor = myDataBase.rawQuery(selectQuery, null);
@@ -179,7 +178,7 @@ public class DbHelper extends SQLiteOpenHelper{
 				//Log.d("Cursor opcC",cursor.getString(5));
 				//Log.d("Cursor opcD",cursor.getString(6));
 				//Log.d("Cursor opcE",cursor.getString(7));
-				Pregunta quest = new Pregunta();
+				Question_Template quest = new Question_Template();
 				//quest.setID(cursor.getInt(0));
 				//quest.setQUESTION(cursor.getString(1));
 				quest.setID(cursor.getInt(0));

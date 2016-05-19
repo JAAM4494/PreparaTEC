@@ -1,7 +1,7 @@
 package com.app.preparatec2;
 
 
-public class Pregunta {
+public class Question_Template {
 	private int ID;
 	private String QUESTION;
 	private String opcA;
@@ -11,7 +11,7 @@ public class Pregunta {
 	private String opcE;
 	private String ANSWER;
 
-	public Pregunta()
+	public Question_Template()
 	{
 		ID=0;
 		QUESTION="";
@@ -21,8 +21,8 @@ public class Pregunta {
 		ANSWER="";
 	}
 
-	public Pregunta(String pPregunta, String pOpcA, String pOpcB, String pOpcC,
-			String pOpcD,String pOpcE,String pResp) {
+	public Question_Template(String pPregunta, String pOpcA, String pOpcB, String pOpcC,
+							 String pOpcD, String pOpcE, String pResp) {
 
 		QUESTION = pPregunta;
 		opcA = pOpcA;

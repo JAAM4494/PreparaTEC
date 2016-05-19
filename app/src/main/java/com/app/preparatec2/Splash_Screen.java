@@ -1,11 +1,8 @@
 package com.app.preparatec2;
 
-import com.app.preparatec2.R;
-
 import android.app.Activity;
 import android.content.Intent;
 import android.graphics.PixelFormat;
-import android.graphics.Typeface;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Window;
@@ -15,9 +12,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import static com.app.preparatec2.R.id.btnPrepara;
-
-public class Splash extends Activity {
+public class Splash_Screen extends Activity {
 	TextView t;
 
 	/** Called when the activity is first created. */
@@ -29,7 +24,7 @@ public class Splash extends Activity {
 		window.setFormat(PixelFormat.RGBA_8888);
 	}
 
-	private static String TAG = Splash.class.getName();
+	private static String TAG = Splash_Screen.class.getName();
 	private static long SLEEP_TIME = 3;
 
 	@Override
@@ -82,9 +77,9 @@ public class Splash extends Activity {
 
 			}
 
-			Intent intent = new Intent(Splash.this, Menu.class);
-			Splash.this.startActivity(intent);
-			Splash.this.finish();
+			Intent intent = new Intent(Splash_Screen.this, Home_Screen.class);
+			Splash_Screen.this.startActivity(intent);
+			Splash_Screen.this.finish();
 		}
 	}    
 }

@@ -1,56 +1,48 @@
 package com.app.preparatec2;
 
-import com.app.preparatec2.R;
-
 import android.app.Activity;
 import android.content.Intent;
-import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.CheckBox;
 
-public class Menu extends Activity {
+public class Home_Screen extends Activity {
 
-	Button botonAcerca, botonPrepara, botonReta;
+	private Button aboutBtn, trainingBtn, dareBtn;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_menu);
 
-		botonAcerca=(Button)findViewById(R.id.btnAcerca);
-		botonPrepara=(Button)findViewById(R.id.btnPrepara);
-		botonReta=(Button)findViewById(R.id.btnReta);
+		aboutBtn = (Button)findViewById(R.id.btnAcerca);
+		trainingBtn = (Button)findViewById(R.id.btnPrepara);
+		dareBtn = (Button)findViewById(R.id.btnReta);
 
-		botonAcerca.setOnClickListener(new View.OnClickListener() {
+		aboutBtn.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
-				Intent intent = new Intent(Menu.this, About.class);
+				Intent intent = new Intent(Home_Screen.this, About_Screen.class);
 				startActivity(intent);
-				//finish();
-			} 
+			}
 		});
 
-		botonPrepara.setOnClickListener(new View.OnClickListener() {
+		trainingBtn.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
-				Intent intent = new Intent(Menu.this, Normal.class);
+				Intent intent = new Intent(Home_Screen.this, Training_Screen.class);
 				startActivity(intent);
-				//finish();
 
-			} 
+			}
 		});
 
-		botonReta.setOnClickListener(new View.OnClickListener() {
+		dareBtn.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
-				Intent intent = new Intent(Menu.this, Retate.class);
+				Intent intent = new Intent(Home_Screen.this, Dare_Screen.class);
 				startActivity(intent);
-				//finish();
-			} 
+			}
 		});
-
 	}
 
 	@Override

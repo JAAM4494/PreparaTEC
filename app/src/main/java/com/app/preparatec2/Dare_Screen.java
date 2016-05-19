@@ -6,8 +6,6 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Random;
 
-import com.app.preparatec2.R;
-
 import android.database.SQLException;
 import android.os.Bundle;
 import android.app.Activity;
@@ -19,13 +17,13 @@ import android.view.View;
 import android.widget.*;
 import android.os.*;
 
-public class Retate extends Activity implements View.OnClickListener,DialogInterface.OnClickListener {
-	List<Pregunta> quesList;
-	List<Pregunta> questInfo;
+public class Dare_Screen extends Activity implements View.OnClickListener,DialogInterface.OnClickListener {
+	List<Question_Template> quesList;
+	List<Question_Template> questInfo;
 
 	int score=0;
 	int qid=0;
-	Pregunta currentQ;
+	Question_Template currentQ;
 	TextView txtQuestion, cronomTextView;
 	Button butA,butB,butC,butD,butE;
 	String respuestaUsr;
@@ -41,9 +39,9 @@ public class Retate extends Activity implements View.OnClickListener,DialogInter
 		setContentView(R.layout.activity_retate);
 
 
-		DbHelper db=new DbHelper(this);
+		DB_Driver db=new DB_Driver(this);
 
-		db = new DbHelper(this);
+		db = new DB_Driver(this);
 		try {
 
 			db.createDataBase();
@@ -244,11 +242,11 @@ public class Retate extends Activity implements View.OnClickListener,DialogInter
 		}
 	}
 
-	private List<Pregunta> prepareQuestion(List<Pregunta> pItems,List<Pregunta> pItemInfo ) {
+	private List<Question_Template> prepareQuestion(List<Question_Template> pItems,List<Question_Template> pItemInfo ) {
 
-		List<Pregunta> result = new ArrayList<Pregunta>();
+		List<Question_Template> result = new ArrayList<Question_Template>();
 		for ( int i = 0; i < pItems.size(); i ++ ) {
-			Pregunta tmp = new Pregunta();
+			Question_Template tmp = new Question_Template();
 			tmp.setID(pItems.get(i).getID());
 			tmp.setQUESTION(pItems.get(i).getQUESTION());
 			tmp.setOpcA(pItemInfo.get(i).getOpcA());
@@ -269,7 +267,7 @@ public class Retate extends Activity implements View.OnClickListener,DialogInter
 		// TODO Auto-generated method stub
 		switch(which){
 		case DialogInterface.BUTTON_POSITIVE: 
-			//Devuelve Menu Principal
+			//Devuelve Home_Screen Principal
 			finish();
 			System.exit(0);
 			break;
