@@ -18,7 +18,7 @@ public class DbHelper extends SQLiteOpenHelper{
 
 	private static String DB_PATH = "";
 
-	private static String DB_NAME = "preparaTEC_DB_Final.db";
+	private static String DB_NAME = "preparaTEC_DB.db";
 	private static final String TABLE_PREG = "ItemInfo";
 	private static final String TABLEItem = "Items";
 
