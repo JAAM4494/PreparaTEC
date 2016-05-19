@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.app.preparatec2"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.app.preparatec2.Splash"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/FullscreenTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.app.preparatec2.Menu"
+            android:label="@string/title_activity_menu" >
+        </activity>
+        <activity
+            android:name="com.app.preparatec2.Acerca"
+            android:label="@string/title_activity_acerca_screen" >
+        </activity>
+        <activity
+            android:name="com.app.preparatec2.About"
+            android:label="@string/title_activity_about" >
+        </activity>
+        <activity
+            android:name="com.app.preparatec2.Normal"
+            android:label="@string/title_activity_normal" >
+        </activity>
+        <activity
+            android:name="com.app.preparatec2.Result"
+            android:label="@string/title_activity_result" >
+        </activity>
+        <activity
+            android:name="com.app.preparatec2.Retate"
+            android:label="@string/title_activity_retate" >
+        </activity>
+        <activity
+            android:name="com.app.preparatec2.Calificacion"
+            android:label="@string/title_activity_calificacion" >
+        </activity>
+    </application>
+
+</manifest>
