@@ -1,2 +1,0 @@
-CHANGED,/Users/EdwinVasquez/Documents/Preparatec/Preparatec/PreparaTEC/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/app/preparatec2/DbHelper$override.class
-CHANGED,/Users/EdwinVasquez/Documents/Preparatec/Preparatec/PreparaTEC/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/android/tools/fd/runtime/AppPatchesLoaderImpl.class

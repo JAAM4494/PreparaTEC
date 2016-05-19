@@ -48,12 +48,12 @@ public class Splash_Screen extends Activity {
 
 		anim = AnimationUtils.loadAnimation(this, R.anim.translate);
 		anim.reset();
-		ImageView iv = (ImageView) findViewById(R.id.logo);
-		iv.clearAnimation();
-		iv.startAnimation(anim);
+		//ImageView iv = (ImageView) findViewById(R.id.logo);
+		//iv.clearAnimation();
+		//iv.startAnimation(anim);
 
 	}
-	
+
 	@Override
 	public void onBackPressed() {
 	  // Log.d("CDA", "onBackPressed Called");
@@ -81,5 +81,5 @@ public class Splash_Screen extends Activity {
 			Splash_Screen.this.startActivity(intent);
 			Splash_Screen.this.finish();
 		}
-	}    
+	}
 }

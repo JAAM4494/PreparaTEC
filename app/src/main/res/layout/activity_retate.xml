@@ -2,96 +2,99 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/fondo2"
+    android:background="#ffffff"
     tools:context="${relativePackage}.${activityClass}" >
-
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="match_parent"
-        android:layout_height="65dp"
-        android:layout_above="@+id/button5"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="3dp"
-        android:layout_marginLeft="3dp"
-        android:layout_marginRight="3dp"
-        android:background="@drawable/cust_pregunta"
-        android:text="opcion4" />
-
-    <Button
-        android:id="@+id/button1"
-        android:layout_width="match_parent"
-        android:layout_height="65dp"
-        android:layout_above="@+id/button2"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="3dp"
-        android:layout_marginLeft="3dp"
-        android:layout_marginRight="3dp"
-        android:background="@drawable/cust_pregunta"
-        android:text="opcion1" />
 
     <TextView
         android:id="@+id/textView1"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
+        android:layout_width="300dp"
+        android:layout_height="140dp"
         android:gravity="center"
         android:text="Text text text"
-        android:textSize="16sp" />
+        android:textSize="16sp"
+        android:layout_above="@+id/button1"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:background="@drawable/cust_pregunta"
+        android:text="opcion1"
+        android:layout_above="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp" />
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="match_parent"
-        android:layout_height="65dp"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:background="@drawable/cust_pregunta"
+        android:text="opcion2"
         android:layout_above="@+id/button3"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="3dp"
-        android:layout_marginLeft="3dp"
-        android:layout_marginRight="3dp"
-        android:background="@drawable/cust_pregunta"
-        android:text="opcion2" />
+        android:layout_marginBottom="10dp" />
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="match_parent"
-        android:layout_height="65dp"
-        android:layout_above="@+id/button4"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="3dp"
-        android:layout_marginLeft="3dp"
-        android:layout_marginRight="3dp"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
         android:background="@drawable/cust_pregunta"
-        android:text="opcion3" />
+        android:text="opcion3"
+        android:layout_above="@+id/button5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:background="@drawable/cust_pregunta"
+        android:text="opcion4"
+        android:layout_above="@+id/cronomTextV"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp" />
 
     <Button
         android:id="@+id/button5"
-        android:layout_width="match_parent"
-        android:layout_height="65dp"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_marginBottom="3dp"
-        android:layout_marginLeft="3dp"
-        android:layout_marginRight="3dp"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
         android:background="@drawable/cust_pregunta"
-        android:text="opcion5" />
+        android:text="opcion5"
+        android:layout_above="@+id/button4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp" />
 
-    <LinearLayout
-        android:layout_width="fill_parent"
+    <TextView
+        android:id="@+id/cronomTextV"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:gravity="center_vertical|center"
+        android:text="00"
+        android:textSize="35sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@id/button1"
-        android:layout_below="@+id/textView1" >
+        android:text="Reto"
+        android:id="@+id/tRetop"
+        android:layout_above="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:textColor="#161638"
+        android:textSize="30dp"
+        android:layout_marginTop="10dp" /><![CDATA[
 
-        <TextView
-            android:id="@+id/cronomTextV"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:layout_marginRight="20dp"
-            android:ems="10"
-            android:gravity="center_vertical|center"
-            android:text="00"
-            android:textSize="35sp" />
 
-    </LinearLayout>
-        />
 
+
+
+    />
+
+
+
+]]>
 </RelativeLayout>
