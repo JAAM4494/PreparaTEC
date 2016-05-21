@@ -1,22 +1,10 @@
 [
     {
-        "merged": "C:\\Users\\pablo\\Documents\\GitHub\\PreparaTEC\\app\\build\\intermediates\\res\\merged\\debug\\layout-xlarge-v4\\activity_normal.xml",
-        "source": "C:\\Users\\pablo\\Documents\\GitHub\\PreparaTEC\\app\\src\\main\\res\\layout-xlarge\\activity_normal.xml"
+        "merged": "/Users/EdwinVasquez/Documents/workspace/PreparaTEC/app/build/intermediates/res/merged/debug/layout-xlarge-v4/activity_about.xml",
+        "source": "/Users/EdwinVasquez/Documents/workspace/PreparaTEC/app/src/main/res/layout-xlarge/activity_about.xml"
     },
     {
-        "merged": "C:\\Users\\pablo\\Documents\\GitHub\\PreparaTEC\\app\\build\\intermediates\\res\\merged\\debug\\layout-xlarge-v4\\activity_splash.xml",
-        "source": "C:\\Users\\pablo\\Documents\\GitHub\\PreparaTEC\\app\\src\\main\\res\\layout-xlarge\\activity_splash.xml"
-    },
-    {
-        "merged": "C:\\Users\\pablo\\Documents\\GitHub\\PreparaTEC\\app\\build\\intermediates\\res\\merged\\debug\\layout-xlarge-v4\\activity_about.xml",
-        "source": "C:\\Users\\pablo\\Documents\\GitHub\\PreparaTEC\\app\\src\\main\\res\\layout-xlarge\\activity_about.xml"
-    },
-    {
-        "merged": "C:\\Users\\pablo\\Documents\\GitHub\\PreparaTEC\\app\\build\\intermediates\\res\\merged\\debug\\layout-xlarge-v4\\activity_retate.xml",
-        "source": "C:\\Users\\pablo\\Documents\\GitHub\\PreparaTEC\\app\\src\\main\\res\\layout-xlarge\\activity_retate.xml"
-    },
-    {
-        "merged": "C:\\Users\\pablo\\Documents\\GitHub\\PreparaTEC\\app\\build\\intermediates\\res\\merged\\debug\\layout-xlarge-v4\\activity_menu.xml",
-        "source": "C:\\Users\\pablo\\Documents\\GitHub\\PreparaTEC\\app\\src\\main\\res\\layout-xlarge\\activity_menu.xml"
+        "merged": "/Users/EdwinVasquez/Documents/workspace/PreparaTEC/app/build/intermediates/res/merged/debug/layout-xlarge-v4/activity_menu.xml",
+        "source": "/Users/EdwinVasquez/Documents/workspace/PreparaTEC/app/src/main/res/layout-xlarge/activity_menu.xml"
     }
 ]

@@ -122,7 +122,7 @@ public class Dare_Screen extends Activity implements View.OnClickListener,Dialog
 		butA.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
-				respuestaUsr= butA.getText().toString();
+				respuestaUsr= "1";
 				verifAns(cronom);
 
 			} 
@@ -131,7 +131,7 @@ public class Dare_Screen extends Activity implements View.OnClickListener,Dialog
 		butB.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
-				respuestaUsr= butB.getText().toString();
+				respuestaUsr= "2";
 				verifAns(cronom);
 
 
@@ -141,7 +141,7 @@ public class Dare_Screen extends Activity implements View.OnClickListener,Dialog
 		butC.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
-				respuestaUsr= butC.getText().toString();
+				respuestaUsr= "3";
 				verifAns(cronom);
 			} 
 		});
@@ -150,7 +150,7 @@ public class Dare_Screen extends Activity implements View.OnClickListener,Dialog
 			@Override
 
 			public void onClick(View v) {
-				respuestaUsr= butD.getText().toString();
+				respuestaUsr= "4";
 				verifAns(cronom);
 
 			} 
@@ -159,7 +159,7 @@ public class Dare_Screen extends Activity implements View.OnClickListener,Dialog
 		butE.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
-				respuestaUsr= butE.getText().toString();
+				respuestaUsr= "5";
 				verifAns(cronom);
 
 			} 

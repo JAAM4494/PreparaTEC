@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\pablo\\Documents\\GitHub\\PreparaTEC\\app\\build\\intermediates\\res\\merged\\debug\\values-v11\\values-v11.xml",
+        "outputFile": "/Users/EdwinVasquez/Documents/workspace/PreparaTEC/app/build/intermediates/res/merged/debug/values-v11/values-v11.xml",
         "map": [
             {
                 "to": {
@@ -12,14 +12,14 @@
                     "endOffset": 184
                 },
                 "from": {
-                    "file": "C:\\Users\\pablo\\Documents\\GitHub\\PreparaTEC\\app\\src\\main\\res\\values-v11\\styles.xml",
+                    "file": "/Users/EdwinVasquez/Documents/workspace/PreparaTEC/app/src/main/res/values-v11/styles.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
-                        "startOffset": 223,
+                        "startOffset": 216,
                         "endLine": 9,
                         "endColumn": 12,
-                        "endOffset": 354
+                        "endOffset": 345
                     }
                 }
             },
@@ -33,7 +33,7 @@
                     "endOffset": 603
                 },
                 "from": {
-                    "file": "C:\\Users\\pablo\\Documents\\GitHub\\PreparaTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values-v11\\values.xml",
+                    "file": "/Users/EdwinVasquez/Documents/workspace/PreparaTEC/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v11/values.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -54,7 +54,7 @@
                     "endOffset": 1028
                 },
                 "from": {
-                    "file": "C:\\Users\\pablo\\Documents\\GitHub\\PreparaTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values-v11\\values.xml",
+                    "file": "/Users/EdwinVasquez/Documents/workspace/PreparaTEC/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v11/values.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -75,7 +75,7 @@
                     "endOffset": 1456
                 },
                 "from": {
-                    "file": "C:\\Users\\pablo\\Documents\\GitHub\\PreparaTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values-v11\\values.xml",
+                    "file": "/Users/EdwinVasquez/Documents/workspace/PreparaTEC/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v11/values.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -96,7 +96,7 @@
                     "endOffset": 1882
                 },
                 "from": {
-                    "file": "C:\\Users\\pablo\\Documents\\GitHub\\PreparaTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values-v11\\values.xml",
+                    "file": "/Users/EdwinVasquez/Documents/workspace/PreparaTEC/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v11/values.xml",
                     "position": {
                         "startLine": 24,
                         "startColumn": 4,
@@ -117,7 +117,7 @@
                     "endOffset": 2311
                 },
                 "from": {
-                    "file": "C:\\Users\\pablo\\Documents\\GitHub\\PreparaTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values-v11\\values.xml",
+                    "file": "/Users/EdwinVasquez/Documents/workspace/PreparaTEC/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v11/values.xml",
                     "position": {
                         "startLine": 31,
                         "startColumn": 4,
@@ -138,7 +138,7 @@
                     "endOffset": 2736
                 },
                 "from": {
-                    "file": "C:\\Users\\pablo\\Documents\\GitHub\\PreparaTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values-v11\\values.xml",
+                    "file": "/Users/EdwinVasquez/Documents/workspace/PreparaTEC/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v11/values.xml",
                     "position": {
                         "startLine": 38,
                         "startColumn": 4,
@@ -159,7 +159,7 @@
                     "endOffset": 3157
                 },
                 "from": {
-                    "file": "C:\\Users\\pablo\\Documents\\GitHub\\PreparaTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values-v11\\values.xml",
+                    "file": "/Users/EdwinVasquez/Documents/workspace/PreparaTEC/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v11/values.xml",
                     "position": {
                         "startLine": 45,
                         "startColumn": 4,
@@ -180,7 +180,7 @@
                     "endOffset": 3592
                 },
                 "from": {
-                    "file": "C:\\Users\\pablo\\Documents\\GitHub\\PreparaTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values-v11\\values.xml",
+                    "file": "/Users/EdwinVasquez/Documents/workspace/PreparaTEC/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v11/values.xml",
                     "position": {
                         "startLine": 52,
                         "startColumn": 4,
@@ -201,7 +201,7 @@
                     "endOffset": 4025
                 },
                 "from": {
-                    "file": "C:\\Users\\pablo\\Documents\\GitHub\\PreparaTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values-v11\\values.xml",
+                    "file": "/Users/EdwinVasquez/Documents/workspace/PreparaTEC/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v11/values.xml",
                     "position": {
                         "startLine": 59,
                         "startColumn": 4,
@@ -222,7 +222,7 @@
                     "endOffset": 4472
                 },
                 "from": {
-                    "file": "C:\\Users\\pablo\\Documents\\GitHub\\PreparaTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values-v11\\values.xml",
+                    "file": "/Users/EdwinVasquez/Documents/workspace/PreparaTEC/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v11/values.xml",
                     "position": {
                         "startLine": 66,
                         "startColumn": 4,
@@ -242,7 +242,7 @@
                     "endOffset": 4550
                 },
                 "from": {
-                    "file": "C:\\Users\\pablo\\Documents\\GitHub\\PreparaTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values-v11\\values.xml",
+                    "file": "/Users/EdwinVasquez/Documents/workspace/PreparaTEC/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v11/values.xml",
                     "position": {
                         "startLine": 73,
                         "startColumn": 4,
@@ -261,7 +261,7 @@
                     "endOffset": 4642
                 },
                 "from": {
-                    "file": "C:\\Users\\pablo\\Documents\\GitHub\\PreparaTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values-v11\\values.xml",
+                    "file": "/Users/EdwinVasquez/Documents/workspace/PreparaTEC/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v11/values.xml",
                     "position": {
                         "startLine": 75,
                         "startColumn": 4,
@@ -280,7 +280,7 @@
                     "endOffset": 4732
                 },
                 "from": {
-                    "file": "C:\\Users\\pablo\\Documents\\GitHub\\PreparaTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values-v11\\values.xml",
+                    "file": "/Users/EdwinVasquez/Documents/workspace/PreparaTEC/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v11/values.xml",
                     "position": {
                         "startLine": 77,
                         "startColumn": 4,
@@ -300,7 +300,7 @@
                     "endOffset": 11461
                 },
                 "from": {
-                    "file": "C:\\Users\\pablo\\Documents\\GitHub\\PreparaTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values-v11\\values.xml",
+                    "file": "/Users/EdwinVasquez/Documents/workspace/PreparaTEC/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v11/values.xml",
                     "position": {
                         "startLine": 79,
                         "startColumn": 4,
@@ -320,7 +320,7 @@
                     "endOffset": 11556
                 },
                 "from": {
-                    "file": "C:\\Users\\pablo\\Documents\\GitHub\\PreparaTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values-v11\\values.xml",
+                    "file": "/Users/EdwinVasquez/Documents/workspace/PreparaTEC/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v11/values.xml",
                     "position": {
                         "startLine": 176,
                         "startColumn": 4,
@@ -339,7 +339,7 @@
                     "endOffset": 11673
                 },
                 "from": {
-                    "file": "C:\\Users\\pablo\\Documents\\GitHub\\PreparaTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values-v11\\values.xml",
+                    "file": "/Users/EdwinVasquez/Documents/workspace/PreparaTEC/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v11/values.xml",
                     "position": {
                         "startLine": 178,
                         "startColumn": 4,
@@ -359,7 +359,7 @@
                     "endOffset": 12037
                 },
                 "from": {
-                    "file": "C:\\Users\\pablo\\Documents\\GitHub\\PreparaTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values-v11\\values.xml",
+                    "file": "/Users/EdwinVasquez/Documents/workspace/PreparaTEC/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v11/values.xml",
                     "position": {
                         "startLine": 180,
                         "startColumn": 4,
@@ -380,14 +380,14 @@
                     "endOffset": 12201
                 },
                 "from": {
-                    "file": "C:\\Users\\pablo\\Documents\\GitHub\\PreparaTEC\\app\\src\\main\\res\\values-v11\\styles.xml",
+                    "file": "/Users/EdwinVasquez/Documents/workspace/PreparaTEC/app/src/main/res/values-v11/styles.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
-                        "startOffset": 817,
+                        "startOffset": 798,
                         "endLine": 21,
                         "endColumn": 12,
-                        "endOffset": 978
+                        "endOffset": 957
                     }
                 }
             },
@@ -401,14 +401,14 @@
                     "endOffset": 12647
                 },
                 "from": {
-                    "file": "C:\\Users\\pablo\\Documents\\GitHub\\PreparaTEC\\app\\src\\main\\res\\values-v11\\styles.xml",
+                    "file": "/Users/EdwinVasquez/Documents/workspace/PreparaTEC/app/src/main/res/values-v11/styles.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
-                        "startOffset": 362,
+                        "startOffset": 351,
                         "endLine": 17,
                         "endColumn": 12,
-                        "endOffset": 809
+                        "endOffset": 792
                     }
                 }
             },
@@ -422,7 +422,7 @@
                     "endOffset": 16284
                 },
                 "from": {
-                    "file": "C:\\Users\\pablo\\Documents\\GitHub\\PreparaTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values-v11\\values.xml",
+                    "file": "/Users/EdwinVasquez/Documents/workspace/PreparaTEC/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v11/values.xml",
                     "position": {
                         "startLine": 186,
                         "startColumn": 4,
@@ -443,7 +443,7 @@
                     "endOffset": 19935
                 },
                 "from": {
-                    "file": "C:\\Users\\pablo\\Documents\\GitHub\\PreparaTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values-v11\\values.xml",
+                    "file": "/Users/EdwinVasquez/Documents/workspace/PreparaTEC/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v11/values.xml",
                     "position": {
                         "startLine": 233,
                         "startColumn": 4,
@@ -464,7 +464,7 @@
                     "endOffset": 23711
                 },
                 "from": {
-                    "file": "C:\\Users\\pablo\\Documents\\GitHub\\PreparaTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values-v11\\values.xml",
+                    "file": "/Users/EdwinVasquez/Documents/workspace/PreparaTEC/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v11/values.xml",
                     "position": {
                         "startLine": 280,
                         "startColumn": 4,
@@ -485,7 +485,7 @@
                     "endOffset": 27501
                 },
                 "from": {
-                    "file": "C:\\Users\\pablo\\Documents\\GitHub\\PreparaTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values-v11\\values.xml",
+                    "file": "/Users/EdwinVasquez/Documents/workspace/PreparaTEC/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v11/values.xml",
                     "position": {
                         "startLine": 328,
                         "startColumn": 4,
