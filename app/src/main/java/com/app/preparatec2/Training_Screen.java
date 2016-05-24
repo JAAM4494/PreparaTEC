@@ -22,6 +22,9 @@ import android.widget.Toast;
 import android.database.SQLException;
 
 
+/**
+ * Clase que se encarga de la pantalla de entrenamiento.
+ */
 public class Training_Screen extends Activity implements  DialogInterface.OnClickListener {
 
 	private Button firstOptBtn, secondOptBtn, thirdOptBtn, fourthOptBtn, fifthOptBtn;
@@ -145,19 +148,19 @@ public class Training_Screen extends Activity implements  DialogInterface.OnClic
 		questionTV.setTextColor(Color.parseColor("#414042"));
 		questionTV.setText(currentQuestion.getQUESTION());
 
-		firstOptBtn.setText(currentQuestion.getOpcA());
+		firstOptBtn.setText(currentQuestion.getFirstOpt());
 		firstOptBtn.setTextColor(Color.parseColor("#414042"));
 
-		secondOptBtn.setText(currentQuestion.getOpcB());
+		secondOptBtn.setText(currentQuestion.getSecondOpt());
 		secondOptBtn.setTextColor(Color.parseColor("#414042"));
 
-		thirdOptBtn.setText(currentQuestion.getOpcC());
+		thirdOptBtn.setText(currentQuestion.getThirdOpt());
 		thirdOptBtn.setTextColor(Color.parseColor("#414042"));
 
-		fourthOptBtn.setText(currentQuestion.getOpcD());
+		fourthOptBtn.setText(currentQuestion.getFourthOpt());
 		fourthOptBtn.setTextColor(Color.parseColor("#414042"));
 
-		fifthOptBtn.setText(currentQuestion.getOpcE());
+		fifthOptBtn.setText(currentQuestion.getFifthOpt());
 		fifthOptBtn.setTextColor(Color.parseColor("#414042"));
 		
 		questionID++;
@@ -170,7 +173,7 @@ public class Training_Screen extends Activity implements  DialogInterface.OnClic
 	 */
 	public void checkUserAnswer() {
 		
-		if(currentQuestion.getANSWER().equals(userResponse) && (questionCounter != 20))
+		if(currentQuestion.getAnswer().equals(userResponse) && (questionCounter != 20))
 		{
 			userScore++;
 			Toast.makeText(getApplicationContext(),"Respuesta Correcta" , Toast.LENGTH_SHORT).show();
@@ -215,9 +218,9 @@ public class Training_Screen extends Activity implements  DialogInterface.OnClic
 	}
 
 	/**
-	 * Metodo encargado de preparar
-	 * @param pItems
-	 * @param pItemInfo
+	 * Metodo encargado de preparar las preguntas a mostrar
+	 * @param pItems corresponde a las preguntas
+	 * @param pItemInfo corresponde a las opciones de las preguntas.
 	 * @return
 	 */
 	private List<Question_Template> prepareQuestion(List<Question_Template> pItems,List<Question_Template> pItemInfo ) {
@@ -227,12 +230,12 @@ public class Training_Screen extends Activity implements  DialogInterface.OnClic
 			Question_Template tmp = new Question_Template();
 			tmp.setID(pItems.get(i).getID());
 			tmp.setQUESTION(pItems.get(i).getQUESTION());
-			tmp.setOpcA(pItemInfo.get(i).getOpcA());
-			tmp.setOpcB(pItemInfo.get(i).getOpcB());
-			tmp.setOpcC(pItemInfo.get(i).getOpcC());
-			tmp.setOpcD(pItemInfo.get(i).getOpcD());
-			tmp.setOpcE(pItemInfo.get(i).getOpcE());
-			tmp.setANSWER(pItemInfo.get(i).getANSWER());
+			tmp.setFirstOpt(pItemInfo.get(i).getFirstOpt());
+			tmp.setSecondOpt(pItemInfo.get(i).getSecondOpt());
+			tmp.setThirdOpt(pItemInfo.get(i).getThirdOpt());
+			tmp.setFourthOpt(pItemInfo.get(i).getFourthOpt());
+			tmp.setFifthOpt(pItemInfo.get(i).getFifthOpt());
+			tmp.setAnswer(pItemInfo.get(i).getAnswer());
 
 			result.add(tmp);
 		}

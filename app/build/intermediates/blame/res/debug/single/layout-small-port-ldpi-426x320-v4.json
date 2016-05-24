@@ -1,6 +1,10 @@
 [
     {
-        "merged": "/Users/EdwinVasquez/Documents/workspace/PreparaTEC/app/build/intermediates/res/merged/debug/layout-small-port-ldpi-426x320-v4/activity_about.xml",
-        "source": "/Users/EdwinVasquez/Documents/workspace/PreparaTEC/app/src/main/res/layout-small-port-ldpi-426x320/activity_about.xml"
+        "merged": "C:\\Users\\JAAM\\AndroidStudioProjects\\Preparatec2\\Preparatec\\PreparaTEC\\app\\build\\intermediates\\res\\merged\\debug\\layout-small-port-ldpi-426x320-v4\\activity_about.xml",
+        "source": "C:\\Users\\JAAM\\AndroidStudioProjects\\Preparatec2\\Preparatec\\PreparaTEC\\app\\src\\main\\res\\layout-small-port-ldpi-426x320\\activity_about.xml"
+    },
+    {
+        "merged": "C:\\Users\\EdwinVasquez\\Documents\\workspace\\PreparaTEC\\app\\build\\intermediates\\res\\merged\\debug\\layout-small-port-ldpi-426x320-v4\\activity_about.xml",
+        "source": "C:\\Users\\EdwinVasquez\\Documents\\workspace\\PreparaTEC\\app\\src\\main\\res\\layout-small-port-ldpi-426x320\\activity_about.xml"
     }
 ]

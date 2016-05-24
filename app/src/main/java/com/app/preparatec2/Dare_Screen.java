@@ -17,20 +17,23 @@ import android.view.View;
 import android.widget.*;
 import android.os.*;
 
+/**
+ * Clase encargada del modo reto.
+ */
 public class Dare_Screen extends Activity implements View.OnClickListener,DialogInterface.OnClickListener {
-	List<Question_Template> quesList;
-	List<Question_Template> questInfo;
 
-	int score=0;
-	int qid=0;
-	Question_Template currentQ;
-	TextView txtQuestion, cronomTextView;
-	Button butA,butB,butC,butD,butE;
-	String respuestaUsr;
-	int time = 100000;
-	CountDownTimer cronom;
-	int counterQuest=0;
+	private List<Question_Template> questList;
+	private List<Question_Template> questInfo;
 
+	private DB_Driver DBDriver;
+	private Question_Template currentQuestion;
+
+	private CountDownTimer cronom;
+	private int time = 100000;
+	private int questionID, score, counterQuest;
+	private String userResponse;
+	private TextView questionTV, cronomTV;
+	private Button firstOptBtn, secondOptBtn, thirdOptBtn, fourthOptBtn, fifthOptBtn;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -38,70 +41,61 @@ public class Dare_Screen extends Activity implements View.OnClickListener,Dialog
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_retate);
 
+		DBDriver = new DB_Driver(this);
+		score = 0;
+		counterQuest = 0;
 
-		DB_Driver db=new DB_Driver(this);
-
-		db = new DB_Driver(this);
 		try {
-
-			db.createDataBase();
-
+			DBDriver.createDataBase();
 		} catch (IOException ioe) {
-
 			throw new Error("Unable to create database");
-
 		}
+
 		try {
-
-			db.openDataBase();
+			DBDriver.openDataBase();
 		}catch(SQLException sqle){
-
 			throw sqle;
 		}
 
+		questList = DBDriver.getItemInfo();
+		questInfo = DBDriver.getItems();
+		questList = prepareQuestion(questInfo, questList);
 
-		quesList=db.getItemInfo();
-		questInfo=db.getItems();
-		quesList = prepareQuestion(questInfo,quesList);
-
+		// genera un aleatorio en el orden de las preguntas --------------- REVISAR
 		long seed = System.nanoTime();
-		Collections.shuffle(quesList, new Random(seed));
+		Collections.shuffle(questList, new Random(seed));
 
-		currentQ=quesList.get(qid);
+		currentQuestion = questList.get(questionID);
 
+		questionTV = (TextView)findViewById(R.id.textView1);
+		cronomTV = (TextView)findViewById(R.id.cronomTextV);
 
-		txtQuestion=(TextView)findViewById(R.id.textView1);
-		cronomTextView=(TextView)findViewById(R.id.cronomTextV);
+		firstOptBtn		= (Button)findViewById(R.id.button1);
+		secondOptBtn 	= (Button)findViewById(R.id.button2);
+		thirdOptBtn 	= (Button)findViewById(R.id.button3);
+		fourthOptBtn 	= (Button)findViewById(R.id.button4);
+		fifthOptBtn 	= (Button)findViewById(R.id.button5);
 
-		butA=(Button)findViewById(R.id.button1);
-		butB=(Button)findViewById(R.id.button2);
-		butC=(Button)findViewById(R.id.button3);
-		butD=(Button)findViewById(R.id.button4);
-		butE=(Button)findViewById(R.id.button5);
+		setQuestionView(); // se muestra la pregunta actual.
 
-
-		setQuestionView();
-
-		final CountDownTimer cronom = new CountDownTimer(time, 1000) {
-			
+		cronom = new CountDownTimer(time, 1000) {
 			public void onTick(long millisUntilFinished) {
-				String tmp=String.valueOf(millisUntilFinished/1000);
+				String tmp = String.valueOf(millisUntilFinished/1000);
 				
 				if(millisUntilFinished/1000<=10) {
-					cronomTextView.setTextColor(Color.parseColor("#FF0000"));
+					cronomTV.setTextColor(Color.parseColor("#FF0000"));
 				}
 				else {
-				cronomTextView.setTextColor(Color.parseColor("#FFFFFF"));
+				cronomTV.setTextColor(Color.parseColor("#FFFFFF"));
 				}
-				cronomTextView.setText(tmp);
+				cronomTV.setText(tmp);
 			}
 
 			public void onFinish() {
 				this.start();
 				try{
-					currentQ=quesList.get(qid);
+					currentQuestion = questList.get(questionID);
 					setQuestionView();
-
 				}
 				catch(Exception e){
 					this.cancel();
@@ -114,61 +108,55 @@ public class Dare_Screen extends Activity implements View.OnClickListener,Dialog
 					 */
 					//Toast.makeText(getApplicationContext(),Integer.toString(score) , Toast.LENGTH_SHORT).show();
 				}
-
 			}
 		};
 		cronom.start();
 
-		butA.setOnClickListener(new View.OnClickListener() {
+		firstOptBtn.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
-				respuestaUsr= "1";
-				verifAns(cronom);
+				userResponse = "1";
+				checkUserAnswer(cronom);
 
-			} 
+			}
 		});
 
-		butB.setOnClickListener(new View.OnClickListener() {
+		secondOptBtn.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
-				respuestaUsr= "2";
-				verifAns(cronom);
+				userResponse = "2";
+				checkUserAnswer(cronom);
 
 
-			} 
+			}
 		});
 
-		butC.setOnClickListener(new View.OnClickListener() {
+		thirdOptBtn.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
-				respuestaUsr= "3";
-				verifAns(cronom);
-			} 
+				userResponse = "3";
+				checkUserAnswer(cronom);
+			}
 		});
 
-		butD.setOnClickListener(new View.OnClickListener() {
+		fourthOptBtn.setOnClickListener(new View.OnClickListener() {
 			@Override
 
 			public void onClick(View v) {
-				respuestaUsr= "4";
-				verifAns(cronom);
+				userResponse = "4";
+				checkUserAnswer(cronom);
 
-			} 
+			}
 		});
 
-		butE.setOnClickListener(new View.OnClickListener() {
+		fifthOptBtn.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
-				respuestaUsr= "5";
-				verifAns(cronom);
+				userResponse = "5";
+				checkUserAnswer(cronom);
 
-			} 
+			}
 		});
-
-
-
-
-
 
 	}
 	@Override
@@ -176,32 +164,37 @@ public class Dare_Screen extends Activity implements View.OnClickListener,Dialog
 		getMenuInflater().inflate(R.menu.normal, menu);
 		return true;
 	}
-	private void setQuestionView()
-	{
-		txtQuestion.setTextColor(Color.parseColor("#414042"));
-		
-		txtQuestion.setText(currentQ.getQUESTION());
-		butA.setText(currentQ.getOpcA());
-		butA.setTextColor(Color.parseColor("#414042"));
 
-		butB.setText(currentQ.getOpcB());
-		butB.setTextColor(Color.parseColor("#414042"));
-		butC.setText(currentQ.getOpcC());
-		butC.setTextColor(Color.parseColor("#414042"));
-		butD.setText(currentQ.getOpcD());
-		butD.setTextColor(Color.parseColor("#414042"));
-		butE.setText(currentQ.getOpcE());
-		butE.setTextColor(Color.parseColor("#414042"));
-		qid++;
+	private void setQuestionView() {
+		questionTV.setTextColor(Color.parseColor("#414042"));
+
+		questionTV.setText(currentQuestion.getQUESTION());
+		firstOptBtn.setText(currentQuestion.getFirstOpt());
+		firstOptBtn.setTextColor(Color.parseColor("#414042"));
+
+		secondOptBtn.setText(currentQuestion.getSecondOpt());
+		secondOptBtn.setTextColor(Color.parseColor("#414042"));
+		thirdOptBtn.setText(currentQuestion.getThirdOpt());
+		thirdOptBtn.setTextColor(Color.parseColor("#414042"));
+		fourthOptBtn.setText(currentQuestion.getFourthOpt());
+		fourthOptBtn.setTextColor(Color.parseColor("#414042"));
+		fifthOptBtn.setText(currentQuestion.getFifthOpt());
+		fifthOptBtn.setTextColor(Color.parseColor("#414042"));
+		questionID++;
 		counterQuest++;
 	}
 
 
-	public void verifAns(CountDownTimer pCronom){
+	/**
+	 * Metodo encargado de verificar la opcioón seleecionada por el usuario.
+	 * @param pCronom cronometro del modo reto.
+	 */
+	public void checkUserAnswer(CountDownTimer pCronom){
 		
-		if(counterQuest==20) {			
-			int finScore=(score*100)/20;
+		if(counterQuest == 20) {
+			int finScore = (score*100)/20;
 			pCronom.cancel();
+
 			AlertDialog ad = new AlertDialog.Builder(this)
 			.setMessage("Su calificación es: " + Integer.toString(finScore))
 			.setIcon(R.drawable.ic_launcher)
@@ -211,37 +204,40 @@ public class Dare_Screen extends Activity implements View.OnClickListener,Dialog
 			.setCancelable(false)
 			.create();
 			ad.show();
-			
 		}
 		else{
 			//pCronom.cancel();
 			//pCronom.start();
-			//currentQ=quesList.get(qid);
+			//currentQuestion=questList.get(qid);
 			//setQuestionView();
 			
-			if(currentQ.getANSWER().equals(respuestaUsr) && counterQuest!=20)
+			if(currentQuestion.getAnswer().equals(userResponse) && counterQuest!=20)
 			{
 				score++;
 				Toast.makeText(getApplicationContext(),"Respuesta Correcta" , Toast.LENGTH_SHORT).show();
 				//pCronom.cancel();
 				//pCronom.start();
-				//currentQ=quesList.get(qid);
+				//currentQuestion=questList.get(qid);
 				//setQuestionView();
-				
 			}
 			else {
 				Toast.makeText(getApplicationContext(),"Respuesta Incorrecta" , Toast.LENGTH_SHORT).show();
-				//currentQ=quesList.get(qid);
+				//currentQuestion=questList.get(qid);
 				//setQuestionView();
-
 			}
 			pCronom.cancel();
 			pCronom.start();
-			currentQ=quesList.get(qid);
+			currentQuestion = questList.get(questionID);
 			setQuestionView();
 		}
 	}
 
+	/**
+	 * Metodo encargado de preparar la pregunta a mostrar.
+	 * @param pItems lista con las preguntas.
+	 * @param pItemInfo lista con las opciones de cada pregunta.
+	 * @return devuelve la pregunta final a mostrar.
+	 */
 	private List<Question_Template> prepareQuestion(List<Question_Template> pItems,List<Question_Template> pItemInfo ) {
 
 		List<Question_Template> result = new ArrayList<Question_Template>();
@@ -249,12 +245,12 @@ public class Dare_Screen extends Activity implements View.OnClickListener,Dialog
 			Question_Template tmp = new Question_Template();
 			tmp.setID(pItems.get(i).getID());
 			tmp.setQUESTION(pItems.get(i).getQUESTION());
-			tmp.setOpcA(pItemInfo.get(i).getOpcA());
-			tmp.setOpcB(pItemInfo.get(i).getOpcB());
-			tmp.setOpcC(pItemInfo.get(i).getOpcC());
-			tmp.setOpcD(pItemInfo.get(i).getOpcD());
-			tmp.setOpcE(pItemInfo.get(i).getOpcE());
-			tmp.setANSWER(pItemInfo.get(i).getANSWER());
+			tmp.setFirstOpt(pItemInfo.get(i).getFirstOpt());
+			tmp.setSecondOpt(pItemInfo.get(i).getSecondOpt());
+			tmp.setThirdOpt(pItemInfo.get(i).getThirdOpt());
+			tmp.setFourthOpt(pItemInfo.get(i).getFourthOpt());
+			tmp.setFifthOpt(pItemInfo.get(i).getFifthOpt());
+			tmp.setAnswer(pItemInfo.get(i).getAnswer());
 			result.add(tmp);
 		}
 

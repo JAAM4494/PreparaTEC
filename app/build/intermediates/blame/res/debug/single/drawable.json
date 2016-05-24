@@ -1,138 +1,274 @@
 [
     {
-        "merged": "/Users/EdwinVasquez/Documents/workspace/PreparaTEC/app/build/intermediates/res/merged/debug/drawable/acercatab.png",
-        "source": "/Users/EdwinVasquez/Documents/workspace/PreparaTEC/app/src/main/res/drawable/acercatab.png"
+        "merged": "C:\\Users\\EdwinVasquez\\Documents\\workspace\\PreparaTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\preparate1.png",
+        "source": "C:\\Users\\EdwinVasquez\\Documents\\workspace\\PreparaTEC\\app\\src\\main\\res\\drawable\\preparate1.png"
     },
     {
-        "merged": "/Users/EdwinVasquez/Documents/workspace/PreparaTEC/app/build/intermediates/res/merged/debug/drawable/cust_pregunta.xml",
-        "source": "/Users/EdwinVasquez/Documents/workspace/PreparaTEC/app/src/main/res/drawable/cust_pregunta.xml"
+        "merged": "C:\\Users\\EdwinVasquez\\Documents\\workspace\\PreparaTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\EdwinVasquez\\Documents\\workspace\\PreparaTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
     },
     {
-        "merged": "/Users/EdwinVasquez/Documents/workspace/PreparaTEC/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
-        "source": "/Users/EdwinVasquez/Documents/workspace/PreparaTEC/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable/abc_cab_background_top_material.xml"
+        "merged": "C:\\Users\\EdwinVasquez\\Documents\\workspace\\PreparaTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\fondo2.png",
+        "source": "C:\\Users\\EdwinVasquez\\Documents\\workspace\\PreparaTEC\\app\\src\\main\\res\\drawable\\fondo2.png"
     },
     {
-        "merged": "/Users/EdwinVasquez/Documents/workspace/PreparaTEC/app/build/intermediates/res/merged/debug/drawable/retate2tab.png",
-        "source": "/Users/EdwinVasquez/Documents/workspace/PreparaTEC/app/src/main/res/drawable/retate2tab.png"
+        "merged": "C:\\Users\\JAAM\\AndroidStudioProjects\\Preparatec2\\Preparatec\\PreparaTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\Users\\JAAM\\AndroidStudioProjects\\Preparatec2\\Preparatec\\PreparaTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\drawable\\abc_cab_background_top_material.xml"
     },
     {
-        "merged": "/Users/EdwinVasquez/Documents/workspace/PreparaTEC/app/build/intermediates/res/merged/debug/drawable/cust_acerca.xml",
-        "source": "/Users/EdwinVasquez/Documents/workspace/PreparaTEC/app/src/main/res/drawable/cust_acerca.xml"
+        "merged": "C:\\Users\\EdwinVasquez\\Documents\\workspace\\PreparaTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cust_pregunta.xml",
+        "source": "C:\\Users\\EdwinVasquez\\Documents\\workspace\\PreparaTEC\\app\\src\\main\\res\\drawable\\cust_pregunta.xml"
     },
     {
-        "merged": "/Users/EdwinVasquez/Documents/workspace/PreparaTEC/app/build/intermediates/res/merged/debug/drawable/pregunta1.png",
-        "source": "/Users/EdwinVasquez/Documents/workspace/PreparaTEC/app/src/main/res/drawable/pregunta1.png"
+        "merged": "C:\\Users\\EdwinVasquez\\Documents\\workspace\\PreparaTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\EdwinVasquez\\Documents\\workspace\\PreparaTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\drawable\\abc_cab_background_internal_bg.xml"
     },
     {
-        "merged": "/Users/EdwinVasquez/Documents/workspace/PreparaTEC/app/build/intermediates/res/merged/debug/drawable/preparate1.png",
-        "source": "/Users/EdwinVasquez/Documents/workspace/PreparaTEC/app/src/main/res/drawable/preparate1.png"
+        "merged": "C:\\Users\\JAAM\\AndroidStudioProjects\\Preparatec2\\Preparatec\\PreparaTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\JAAM\\AndroidStudioProjects\\Preparatec2\\Preparatec\\PreparaTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\drawable\\abc_tab_indicator_material.xml"
     },
     {
-        "merged": "/Users/EdwinVasquez/Documents/workspace/PreparaTEC/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_dark.xml",
-        "source": "/Users/EdwinVasquez/Documents/workspace/PreparaTEC/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable/abc_list_selector_holo_dark.xml"
+        "merged": "C:\\Users\\EdwinVasquez\\Documents\\workspace\\PreparaTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\Users\\EdwinVasquez\\Documents\\workspace\\PreparaTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\drawable\\abc_btn_check_material.xml"
     },
     {
-        "merged": "/Users/EdwinVasquez/Documents/workspace/PreparaTEC/app/build/intermediates/res/merged/debug/drawable/preparate2tab.png",
-        "source": "/Users/EdwinVasquez/Documents/workspace/PreparaTEC/app/src/main/res/drawable/preparate2tab.png"
+        "merged": "C:\\Users\\EdwinVasquez\\Documents\\workspace\\PreparaTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\EdwinVasquez\\Documents\\workspace\\PreparaTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\drawable\\abc_edit_text_material.xml"
     },
     {
-        "merged": "/Users/EdwinVasquez/Documents/workspace/PreparaTEC/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
-        "source": "/Users/EdwinVasquez/Documents/workspace/PreparaTEC/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable/abc_list_selector_background_transition_holo_light.xml"
+        "merged": "C:\\Users\\JAAM\\AndroidStudioProjects\\Preparatec2\\Preparatec\\PreparaTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\retate1.png",
+        "source": "C:\\Users\\JAAM\\AndroidStudioProjects\\Preparatec2\\Preparatec\\PreparaTEC\\app\\src\\main\\res\\drawable\\retate1.png"
     },
     {
-        "merged": "/Users/EdwinVasquez/Documents/workspace/PreparaTEC/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_dark.xml",
-        "source": "/Users/EdwinVasquez/Documents/workspace/PreparaTEC/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable/abc_item_background_holo_dark.xml"
+        "merged": "C:\\Users\\EdwinVasquez\\Documents\\workspace\\PreparaTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cust_acerca.xml",
+        "source": "C:\\Users\\EdwinVasquez\\Documents\\workspace\\PreparaTEC\\app\\src\\main\\res\\drawable\\cust_acerca.xml"
     },
     {
-        "merged": "/Users/EdwinVasquez/Documents/workspace/PreparaTEC/app/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml",
-        "source": "/Users/EdwinVasquez/Documents/workspace/PreparaTEC/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable/abc_btn_radio_material.xml"
+        "merged": "C:\\Users\\JAAM\\AndroidStudioProjects\\Preparatec2\\Preparatec\\PreparaTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\fondo2.png",
+        "source": "C:\\Users\\JAAM\\AndroidStudioProjects\\Preparatec2\\Preparatec\\PreparaTEC\\app\\src\\main\\res\\drawable\\fondo2.png"
     },
     {
-        "merged": "/Users/EdwinVasquez/Documents/workspace/PreparaTEC/app/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",
-        "source": "/Users/EdwinVasquez/Documents/workspace/PreparaTEC/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable/abc_textfield_search_material.xml"
+        "merged": "C:\\Users\\JAAM\\AndroidStudioProjects\\Preparatec2\\Preparatec\\PreparaTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cust_retate.xml",
+        "source": "C:\\Users\\JAAM\\AndroidStudioProjects\\Preparatec2\\Preparatec\\PreparaTEC\\app\\src\\main\\res\\drawable\\cust_retate.xml"
     },
     {
-        "merged": "/Users/EdwinVasquez/Documents/workspace/PreparaTEC/app/build/intermediates/res/merged/debug/drawable/fondo2.png",
-        "source": "/Users/EdwinVasquez/Documents/workspace/PreparaTEC/app/src/main/res/drawable/fondo2.png"
+        "merged": "C:\\Users\\JAAM\\AndroidStudioProjects\\Preparatec2\\Preparatec\\PreparaTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\preparate2.png",
+        "source": "C:\\Users\\JAAM\\AndroidStudioProjects\\Preparatec2\\Preparatec\\PreparaTEC\\app\\src\\main\\res\\drawable\\preparate2.png"
     },
     {
-        "merged": "/Users/EdwinVasquez/Documents/workspace/PreparaTEC/app/build/intermediates/res/merged/debug/drawable/abc_switch_thumb_material.xml",
-        "source": "/Users/EdwinVasquez/Documents/workspace/PreparaTEC/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable/abc_switch_thumb_material.xml"
+        "merged": "C:\\Users\\EdwinVasquez\\Documents\\workspace\\PreparaTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\Users\\EdwinVasquez\\Documents\\workspace\\PreparaTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\drawable\\abc_cab_background_top_material.xml"
     },
     {
-        "merged": "/Users/EdwinVasquez/Documents/workspace/PreparaTEC/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml",
-        "source": "/Users/EdwinVasquez/Documents/workspace/PreparaTEC/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable/abc_list_selector_holo_light.xml"
+        "merged": "C:\\Users\\EdwinVasquez\\Documents\\workspace\\PreparaTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cust_retate.xml",
+        "source": "C:\\Users\\EdwinVasquez\\Documents\\workspace\\PreparaTEC\\app\\src\\main\\res\\drawable\\cust_retate.xml"
     },
     {
-        "merged": "/Users/EdwinVasquez/Documents/workspace/PreparaTEC/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml",
-        "source": "/Users/EdwinVasquez/Documents/workspace/PreparaTEC/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable/abc_item_background_holo_light.xml"
+        "merged": "C:\\Users\\JAAM\\AndroidStudioProjects\\Preparatec2\\Preparatec\\PreparaTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "C:\\Users\\JAAM\\AndroidStudioProjects\\Preparatec2\\Preparatec\\PreparaTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\drawable\\abc_list_selector_holo_light.xml"
     },
     {
-        "merged": "/Users/EdwinVasquez/Documents/workspace/PreparaTEC/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_internal_bg.xml",
-        "source": "/Users/EdwinVasquez/Documents/workspace/PreparaTEC/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable/abc_cab_background_internal_bg.xml"
+        "merged": "C:\\Users\\EdwinVasquez\\Documents\\workspace\\PreparaTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\EdwinVasquez\\Documents\\workspace\\PreparaTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\drawable\\abc_tab_indicator_material.xml"
     },
     {
-        "merged": "/Users/EdwinVasquez/Documents/workspace/PreparaTEC/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
-        "source": "/Users/EdwinVasquez/Documents/workspace/PreparaTEC/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
+        "merged": "C:\\Users\\JAAM\\AndroidStudioProjects\\Preparatec2\\Preparatec\\PreparaTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pregunta2.png",
+        "source": "C:\\Users\\JAAM\\AndroidStudioProjects\\Preparatec2\\Preparatec\\PreparaTEC\\app\\src\\main\\res\\drawable\\pregunta2.png"
     },
     {
-        "merged": "/Users/EdwinVasquez/Documents/workspace/PreparaTEC/app/build/intermediates/res/merged/debug/drawable/retate1.png",
-        "source": "/Users/EdwinVasquez/Documents/workspace/PreparaTEC/app/src/main/res/drawable/retate1.png"
+        "merged": "C:\\Users\\EdwinVasquez\\Documents\\workspace\\PreparaTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\imagennula.png",
+        "source": "C:\\Users\\EdwinVasquez\\Documents\\workspace\\PreparaTEC\\app\\src\\main\\res\\drawable\\imagennula.png"
     },
     {
-        "merged": "/Users/EdwinVasquez/Documents/workspace/PreparaTEC/app/build/intermediates/res/merged/debug/drawable/fondo3.png",
-        "source": "/Users/EdwinVasquez/Documents/workspace/PreparaTEC/app/src/main/res/drawable/fondo3.png"
+        "merged": "C:\\Users\\EdwinVasquez\\Documents\\workspace\\PreparaTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\preparate2.png",
+        "source": "C:\\Users\\EdwinVasquez\\Documents\\workspace\\PreparaTEC\\app\\src\\main\\res\\drawable\\preparate2.png"
     },
     {
-        "merged": "/Users/EdwinVasquez/Documents/workspace/PreparaTEC/app/build/intermediates/res/merged/debug/drawable/acerca.png",
-        "source": "/Users/EdwinVasquez/Documents/workspace/PreparaTEC/app/src/main/res/drawable/acerca.png"
+        "merged": "C:\\Users\\EdwinVasquez\\Documents\\workspace\\PreparaTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\acerca.png",
+        "source": "C:\\Users\\EdwinVasquez\\Documents\\workspace\\PreparaTEC\\app\\src\\main\\res\\drawable\\acerca.png"
     },
     {
-        "merged": "/Users/EdwinVasquez/Documents/workspace/PreparaTEC/app/build/intermediates/res/merged/debug/drawable/acerca1.png",
-        "source": "/Users/EdwinVasquez/Documents/workspace/PreparaTEC/app/src/main/res/drawable/acerca1.png"
+        "merged": "C:\\Users\\EdwinVasquez\\Documents\\workspace\\PreparaTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\retate2.png",
+        "source": "C:\\Users\\EdwinVasquez\\Documents\\workspace\\PreparaTEC\\app\\src\\main\\res\\drawable\\retate2.png"
     },
     {
-        "merged": "/Users/EdwinVasquez/Documents/workspace/PreparaTEC/app/build/intermediates/res/merged/debug/drawable/preparate2.png",
-        "source": "/Users/EdwinVasquez/Documents/workspace/PreparaTEC/app/src/main/res/drawable/preparate2.png"
+        "merged": "C:\\Users\\EdwinVasquez\\Documents\\workspace\\PreparaTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\fondo1.png",
+        "source": "C:\\Users\\EdwinVasquez\\Documents\\workspace\\PreparaTEC\\app\\src\\main\\res\\drawable\\fondo1.png"
     },
     {
-        "merged": "/Users/EdwinVasquez/Documents/workspace/PreparaTEC/app/build/intermediates/res/merged/debug/drawable/pregunta2.png",
-        "source": "/Users/EdwinVasquez/Documents/workspace/PreparaTEC/app/src/main/res/drawable/pregunta2.png"
+        "merged": "C:\\Users\\JAAM\\AndroidStudioProjects\\Preparatec2\\Preparatec\\PreparaTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\fondo3.png",
+        "source": "C:\\Users\\JAAM\\AndroidStudioProjects\\Preparatec2\\Preparatec\\PreparaTEC\\app\\src\\main\\res\\drawable\\fondo3.png"
     },
     {
-        "merged": "/Users/EdwinVasquez/Documents/workspace/PreparaTEC/app/build/intermediates/res/merged/debug/drawable/cust_preparate.xml",
-        "source": "/Users/EdwinVasquez/Documents/workspace/PreparaTEC/app/src/main/res/drawable/cust_preparate.xml"
+        "merged": "C:\\Users\\JAAM\\AndroidStudioProjects\\Preparatec2\\Preparatec\\PreparaTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\preparate1.png",
+        "source": "C:\\Users\\JAAM\\AndroidStudioProjects\\Preparatec2\\Preparatec\\PreparaTEC\\app\\src\\main\\res\\drawable\\preparate1.png"
     },
     {
-        "merged": "/Users/EdwinVasquez/Documents/workspace/PreparaTEC/app/build/intermediates/res/merged/debug/drawable/cust_retate.xml",
-        "source": "/Users/EdwinVasquez/Documents/workspace/PreparaTEC/app/src/main/res/drawable/cust_retate.xml"
+        "merged": "C:\\Users\\JAAM\\AndroidStudioProjects\\Preparatec2\\Preparatec\\PreparaTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\Users\\JAAM\\AndroidStudioProjects\\Preparatec2\\Preparatec\\PreparaTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\drawable\\abc_btn_check_material.xml"
     },
     {
-        "merged": "/Users/EdwinVasquez/Documents/workspace/PreparaTEC/app/build/intermediates/res/merged/debug/drawable/imagennula.png",
-        "source": "/Users/EdwinVasquez/Documents/workspace/PreparaTEC/app/src/main/res/drawable/imagennula.png"
+        "merged": "C:\\Users\\JAAM\\AndroidStudioProjects\\Preparatec2\\Preparatec\\PreparaTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\acercatab.png",
+        "source": "C:\\Users\\JAAM\\AndroidStudioProjects\\Preparatec2\\Preparatec\\PreparaTEC\\app\\src\\main\\res\\drawable\\acercatab.png"
     },
     {
-        "merged": "/Users/EdwinVasquez/Documents/workspace/PreparaTEC/app/build/intermediates/res/merged/debug/drawable/abc_edit_text_material.xml",
-        "source": "/Users/EdwinVasquez/Documents/workspace/PreparaTEC/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable/abc_edit_text_material.xml"
+        "merged": "C:\\Users\\JAAM\\AndroidStudioProjects\\Preparatec2\\Preparatec\\PreparaTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\imagennula.png",
+        "source": "C:\\Users\\JAAM\\AndroidStudioProjects\\Preparatec2\\Preparatec\\PreparaTEC\\app\\src\\main\\res\\drawable\\imagennula.png"
     },
     {
-        "merged": "/Users/EdwinVasquez/Documents/workspace/PreparaTEC/app/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_material.xml",
-        "source": "/Users/EdwinVasquez/Documents/workspace/PreparaTEC/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable/abc_tab_indicator_material.xml"
+        "merged": "C:\\Users\\EdwinVasquez\\Documents\\workspace\\PreparaTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\fondo3.png",
+        "source": "C:\\Users\\EdwinVasquez\\Documents\\workspace\\PreparaTEC\\app\\src\\main\\res\\drawable\\fondo3.png"
     },
     {
-        "merged": "/Users/EdwinVasquez/Documents/workspace/PreparaTEC/app/build/intermediates/res/merged/debug/drawable/acerca2.png",
-        "source": "/Users/EdwinVasquez/Documents/workspace/PreparaTEC/app/src/main/res/drawable/acerca2.png"
+        "merged": "C:\\Users\\JAAM\\AndroidStudioProjects\\Preparatec2\\Preparatec\\PreparaTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\preparate2tab.png",
+        "source": "C:\\Users\\JAAM\\AndroidStudioProjects\\Preparatec2\\Preparatec\\PreparaTEC\\app\\src\\main\\res\\drawable\\preparate2tab.png"
     },
     {
-        "merged": "/Users/EdwinVasquez/Documents/workspace/PreparaTEC/app/build/intermediates/res/merged/debug/drawable/abc_btn_check_material.xml",
-        "source": "/Users/EdwinVasquez/Documents/workspace/PreparaTEC/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable/abc_btn_check_material.xml"
+        "merged": "C:\\Users\\EdwinVasquez\\Documents\\workspace\\PreparaTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\acerca1.png",
+        "source": "C:\\Users\\EdwinVasquez\\Documents\\workspace\\PreparaTEC\\app\\src\\main\\res\\drawable\\acerca1.png"
     },
     {
-        "merged": "/Users/EdwinVasquez/Documents/workspace/PreparaTEC/app/build/intermediates/res/merged/debug/drawable/fondo1.png",
-        "source": "/Users/EdwinVasquez/Documents/workspace/PreparaTEC/app/src/main/res/drawable/fondo1.png"
+        "merged": "C:\\Users\\JAAM\\AndroidStudioProjects\\Preparatec2\\Preparatec\\PreparaTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cust_pregunta.xml",
+        "source": "C:\\Users\\JAAM\\AndroidStudioProjects\\Preparatec2\\Preparatec\\PreparaTEC\\app\\src\\main\\res\\drawable\\cust_pregunta.xml"
     },
     {
-        "merged": "/Users/EdwinVasquez/Documents/workspace/PreparaTEC/app/build/intermediates/res/merged/debug/drawable/retate2.png",
-        "source": "/Users/EdwinVasquez/Documents/workspace/PreparaTEC/app/src/main/res/drawable/retate2.png"
+        "merged": "C:\\Users\\EdwinVasquez\\Documents\\workspace\\PreparaTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "C:\\Users\\EdwinVasquez\\Documents\\workspace\\PreparaTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\EdwinVasquez\\Documents\\workspace\\PreparaTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "C:\\Users\\EdwinVasquez\\Documents\\workspace\\PreparaTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\EdwinVasquez\\Documents\\workspace\\PreparaTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "C:\\Users\\EdwinVasquez\\Documents\\workspace\\PreparaTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\EdwinVasquez\\Documents\\workspace\\PreparaTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pregunta2.png",
+        "source": "C:\\Users\\EdwinVasquez\\Documents\\workspace\\PreparaTEC\\app\\src\\main\\res\\drawable\\pregunta2.png"
+    },
+    {
+        "merged": "C:\\Users\\JAAM\\AndroidStudioProjects\\Preparatec2\\Preparatec\\PreparaTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "C:\\Users\\JAAM\\AndroidStudioProjects\\Preparatec2\\Preparatec\\PreparaTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\EdwinVasquez\\Documents\\workspace\\PreparaTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\acercatab.png",
+        "source": "C:\\Users\\EdwinVasquez\\Documents\\workspace\\PreparaTEC\\app\\src\\main\\res\\drawable\\acercatab.png"
+    },
+    {
+        "merged": "C:\\Users\\EdwinVasquez\\Documents\\workspace\\PreparaTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\preparate2tab.png",
+        "source": "C:\\Users\\EdwinVasquez\\Documents\\workspace\\PreparaTEC\\app\\src\\main\\res\\drawable\\preparate2tab.png"
+    },
+    {
+        "merged": "C:\\Users\\EdwinVasquez\\Documents\\workspace\\PreparaTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\Users\\EdwinVasquez\\Documents\\workspace\\PreparaTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\JAAM\\AndroidStudioProjects\\Preparatec2\\Preparatec\\PreparaTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "C:\\Users\\JAAM\\AndroidStudioProjects\\Preparatec2\\Preparatec\\PreparaTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\JAAM\\AndroidStudioProjects\\Preparatec2\\Preparatec\\PreparaTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cust_preparate.xml",
+        "source": "C:\\Users\\JAAM\\AndroidStudioProjects\\Preparatec2\\Preparatec\\PreparaTEC\\app\\src\\main\\res\\drawable\\cust_preparate.xml"
+    },
+    {
+        "merged": "C:\\Users\\EdwinVasquez\\Documents\\workspace\\PreparaTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\acerca2.png",
+        "source": "C:\\Users\\EdwinVasquez\\Documents\\workspace\\PreparaTEC\\app\\src\\main\\res\\drawable\\acerca2.png"
+    },
+    {
+        "merged": "C:\\Users\\JAAM\\AndroidStudioProjects\\Preparatec2\\Preparatec\\PreparaTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\JAAM\\AndroidStudioProjects\\Preparatec2\\Preparatec\\PreparaTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\JAAM\\AndroidStudioProjects\\Preparatec2\\Preparatec\\PreparaTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\acerca1.png",
+        "source": "C:\\Users\\JAAM\\AndroidStudioProjects\\Preparatec2\\Preparatec\\PreparaTEC\\app\\src\\main\\res\\drawable\\acerca1.png"
+    },
+    {
+        "merged": "C:\\Users\\JAAM\\AndroidStudioProjects\\Preparatec2\\Preparatec\\PreparaTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\retate2tab.png",
+        "source": "C:\\Users\\JAAM\\AndroidStudioProjects\\Preparatec2\\Preparatec\\PreparaTEC\\app\\src\\main\\res\\drawable\\retate2tab.png"
+    },
+    {
+        "merged": "C:\\Users\\JAAM\\AndroidStudioProjects\\Preparatec2\\Preparatec\\PreparaTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\fondo1.png",
+        "source": "C:\\Users\\JAAM\\AndroidStudioProjects\\Preparatec2\\Preparatec\\PreparaTEC\\app\\src\\main\\res\\drawable\\fondo1.png"
+    },
+    {
+        "merged": "C:\\Users\\JAAM\\AndroidStudioProjects\\Preparatec2\\Preparatec\\PreparaTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\JAAM\\AndroidStudioProjects\\Preparatec2\\Preparatec\\PreparaTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\EdwinVasquez\\Documents\\workspace\\PreparaTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "C:\\Users\\EdwinVasquez\\Documents\\workspace\\PreparaTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\EdwinVasquez\\Documents\\workspace\\PreparaTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pregunta1.png",
+        "source": "C:\\Users\\EdwinVasquez\\Documents\\workspace\\PreparaTEC\\app\\src\\main\\res\\drawable\\pregunta1.png"
+    },
+    {
+        "merged": "C:\\Users\\JAAM\\AndroidStudioProjects\\Preparatec2\\Preparatec\\PreparaTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\retate2.png",
+        "source": "C:\\Users\\JAAM\\AndroidStudioProjects\\Preparatec2\\Preparatec\\PreparaTEC\\app\\src\\main\\res\\drawable\\retate2.png"
+    },
+    {
+        "merged": "C:\\Users\\JAAM\\AndroidStudioProjects\\Preparatec2\\Preparatec\\PreparaTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pregunta1.png",
+        "source": "C:\\Users\\JAAM\\AndroidStudioProjects\\Preparatec2\\Preparatec\\PreparaTEC\\app\\src\\main\\res\\drawable\\pregunta1.png"
+    },
+    {
+        "merged": "C:\\Users\\EdwinVasquez\\Documents\\workspace\\PreparaTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\retate1.png",
+        "source": "C:\\Users\\EdwinVasquez\\Documents\\workspace\\PreparaTEC\\app\\src\\main\\res\\drawable\\retate1.png"
+    },
+    {
+        "merged": "C:\\Users\\JAAM\\AndroidStudioProjects\\Preparatec2\\Preparatec\\PreparaTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\JAAM\\AndroidStudioProjects\\Preparatec2\\Preparatec\\PreparaTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\JAAM\\AndroidStudioProjects\\Preparatec2\\Preparatec\\PreparaTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cust_acerca.xml",
+        "source": "C:\\Users\\JAAM\\AndroidStudioProjects\\Preparatec2\\Preparatec\\PreparaTEC\\app\\src\\main\\res\\drawable\\cust_acerca.xml"
+    },
+    {
+        "merged": "C:\\Users\\JAAM\\AndroidStudioProjects\\Preparatec2\\Preparatec\\PreparaTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\Users\\JAAM\\AndroidStudioProjects\\Preparatec2\\Preparatec\\PreparaTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\JAAM\\AndroidStudioProjects\\Preparatec2\\Preparatec\\PreparaTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "C:\\Users\\JAAM\\AndroidStudioProjects\\Preparatec2\\Preparatec\\PreparaTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\JAAM\\AndroidStudioProjects\\Preparatec2\\Preparatec\\PreparaTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\acerca2.png",
+        "source": "C:\\Users\\JAAM\\AndroidStudioProjects\\Preparatec2\\Preparatec\\PreparaTEC\\app\\src\\main\\res\\drawable\\acerca2.png"
+    },
+    {
+        "merged": "C:\\Users\\JAAM\\AndroidStudioProjects\\Preparatec2\\Preparatec\\PreparaTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\acerca.png",
+        "source": "C:\\Users\\JAAM\\AndroidStudioProjects\\Preparatec2\\Preparatec\\PreparaTEC\\app\\src\\main\\res\\drawable\\acerca.png"
+    },
+    {
+        "merged": "C:\\Users\\EdwinVasquez\\Documents\\workspace\\PreparaTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\retate2tab.png",
+        "source": "C:\\Users\\EdwinVasquez\\Documents\\workspace\\PreparaTEC\\app\\src\\main\\res\\drawable\\retate2tab.png"
+    },
+    {
+        "merged": "C:\\Users\\JAAM\\AndroidStudioProjects\\Preparatec2\\Preparatec\\PreparaTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\JAAM\\AndroidStudioProjects\\Preparatec2\\Preparatec\\PreparaTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\EdwinVasquez\\Documents\\workspace\\PreparaTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\Users\\EdwinVasquez\\Documents\\workspace\\PreparaTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\JAAM\\AndroidStudioProjects\\Preparatec2\\Preparatec\\PreparaTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "C:\\Users\\JAAM\\AndroidStudioProjects\\Preparatec2\\Preparatec\\PreparaTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\EdwinVasquez\\Documents\\workspace\\PreparaTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\EdwinVasquez\\Documents\\workspace\\PreparaTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\EdwinVasquez\\Documents\\workspace\\PreparaTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cust_preparate.xml",
+        "source": "C:\\Users\\EdwinVasquez\\Documents\\workspace\\PreparaTEC\\app\\src\\main\\res\\drawable\\cust_preparate.xml"
+    },
+    {
+        "merged": "C:\\Users\\JAAM\\AndroidStudioProjects\\Preparatec2\\Preparatec\\PreparaTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\Users\\JAAM\\AndroidStudioProjects\\Preparatec2\\Preparatec\\PreparaTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\EdwinVasquez\\Documents\\workspace\\PreparaTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "C:\\Users\\EdwinVasquez\\Documents\\workspace\\PreparaTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\drawable\\abc_item_background_holo_light.xml"
     }
 ]
