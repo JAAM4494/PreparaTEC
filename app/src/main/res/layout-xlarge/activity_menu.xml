@@ -35,7 +35,8 @@
         android:textColor="#414042"
         android:textSize="35dp"
         android:paddingRight="350dp"
-        android:paddingBottom="25dp" />
+        android:paddingBottom="25dp"
+        android:layout_alignParentLeft="true" />
 
     <Button
         android:id="@+id/btnAcerca"
@@ -46,7 +47,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_marginBottom="95dp"
-        android:text="Acerca"
+        android:text="Acercaw"
         android:textColor="#414042"
         android:textSize="35dp"
         android:paddingRight="300dp" />
