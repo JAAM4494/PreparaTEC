@@ -6,6 +6,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+/**
+ * Clase encargada de la pantalla principal.
+ */
 public class Home_Screen extends Activity {
 
 	private Button aboutBtn, trainingBtn, dareBtn;
@@ -15,9 +18,9 @@ public class Home_Screen extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_menu);
 
-		aboutBtn = (Button)findViewById(R.id.btnAcerca);
+		aboutBtn 	= (Button)findViewById(R.id.btnAcerca);
 		trainingBtn = (Button)findViewById(R.id.btnPrepara);
-		dareBtn = (Button)findViewById(R.id.btnReta);
+		dareBtn 	= (Button)findViewById(R.id.btnReta);
 
 		aboutBtn.setOnClickListener(new View.OnClickListener() {
 			@Override

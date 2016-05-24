@@ -5,9 +5,12 @@ import android.graphics.Color;
 import android.os.Bundle;
 import android.widget.TextView;
 
+/**
+ * Clase que contiene la información de la pantalla de acerca.
+ */
 public class About_Screen extends Activity {
 
-	public static final String copyright  = "\u00a9";
+	public static final String copyright  = "\u00a9"; // símbolo copyright
 
 	private TextView legendLabel, authorsLabel;
 	private String legendString, authorsString;
@@ -25,7 +28,7 @@ public class About_Screen extends Activity {
 				+ "al estudiante una noción sobre la naturaleza de los ítems de dicha prueba.";
 		
 		authorsString =  "Desarrolladores: \n Jose Ariel Arias Méndez \n Edwin Vásquez Leiva \n José Pablo Fernández \n" +
-		" Luis Alejandro Corrales \n Gabriela Delgado Quesada \n" + copyright + " 2014-2015 PreparaTEC \n Todos los derechos reservados";
+		" Luis Alejandro Corrales \n Gabriela Delgado Quesada \n" + copyright + " 2014-2016 PreparaTEC \n Todos los derechos reservados";
 
 		legendLabel.setTextColor(Color.parseColor("#414042"));
 		legendLabel.setText(legendString);

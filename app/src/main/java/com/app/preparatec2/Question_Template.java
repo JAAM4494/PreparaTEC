@@ -1,36 +1,39 @@
 package com.app.preparatec2;
 
 
+/**
+ * Clase plantilla de las preguntas con sus opciones y respuestas.
+ */
 public class Question_Template {
 	private int ID;
 	private String QUESTION;
-	private String opcA;
-	private String opcB;
-	private String opcC;
-	private String opcD;
-	private String opcE;
-	private String ANSWER;
+	private String firstOpt;
+	private String SecondOpt;
+	private String ThirdOpt;
+	private String FourthOpt;
+	private String FifthOpt;
+	private String Answer;
 
 	public Question_Template()
 	{
-		ID=0;
-		QUESTION="";
-		opcA="";
-		opcB="";
-		opcC="";
-		ANSWER="";
+		ID			= 0;
+		QUESTION	= "";
+		firstOpt = "";
+		SecondOpt = "";
+		ThirdOpt = "";
+		Answer = "";
 	}
 
 	public Question_Template(String pPregunta, String pOpcA, String pOpcB, String pOpcC,
 							 String pOpcD, String pOpcE, String pResp) {
 
 		QUESTION = pPregunta;
-		opcA = pOpcA;
-		opcB = pOpcB;
-		opcC = pOpcC;
-		opcD=pOpcD;
-		opcE=pOpcE;
-		ANSWER = pResp;
+		firstOpt = pOpcA;
+		SecondOpt = pOpcB;
+		ThirdOpt = pOpcC;
+		FourthOpt =pOpcD;
+		FifthOpt =pOpcE;
+		Answer = pResp;
 	}
 	public int getID()
 	{
@@ -39,24 +42,24 @@ public class Question_Template {
 	public String getQUESTION() {
 		return QUESTION;
 	}
-	public String getOpcA() {
-		return opcA;
+	public String getFirstOpt() {
+		return firstOpt;
 	}
-	public String getOpcB() {
-		return opcB;
+	public String getSecondOpt() {
+		return SecondOpt;
 	}
-	public String getOpcC() {
-		return opcC;
+	public String getThirdOpt() {
+		return ThirdOpt;
 	}
-	public String getOpcD() {
-		return opcD;
+	public String getFourthOpt() {
+		return FourthOpt;
 	}
-	public String getOpcE() {
-		return opcE;
+	public String getFifthOpt() {
+		return FifthOpt;
 	}
 
-	public String getANSWER() {
-		return ANSWER;
+	public String getAnswer() {
+		return Answer;
 	}
 	public void setID(int id)
 	{
@@ -65,22 +68,22 @@ public class Question_Template {
 	public void setQUESTION(String qUESTION) {
 		QUESTION = qUESTION;
 	}
-	public void setOpcA(String pOpcA) {
-		opcA = pOpcA;
+	public void setFirstOpt(String pOpcA) {
+		firstOpt = pOpcA;
 	}
-	public void setOpcB(String pOpcB) {
-		opcB = pOpcB;
+	public void setSecondOpt(String pOpcB) {
+		SecondOpt = pOpcB;
 	}
-	public void setOpcC(String pOpcC) {
-		opcC = pOpcC;
+	public void setThirdOpt(String pOpcC) {
+		ThirdOpt = pOpcC;
 	}
-	public void setOpcD(String pOpcD) {
-		opcD = pOpcD;
+	public void setFourthOpt(String pOpcD) {
+		FourthOpt = pOpcD;
 	}
-	public void setOpcE(String pOpcE) {
-		opcE = pOpcE;
+	public void setFifthOpt(String pOpcE) {
+		FifthOpt = pOpcE;
 	}
-	public void setANSWER(String aNSWER) {
-		ANSWER = aNSWER;
+	public void setAnswer(String aNSWER) {
+		Answer = aNSWER;
 	}
 }

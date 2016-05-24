@@ -12,8 +12,14 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+/**
+ * Clase encargada de la pantalla de bienvenida.
+ */
 public class Splash_Screen extends Activity {
-	TextView t;
+	private TextView firstTV;
+
+	private static String TAG = Splash_Screen.class.getName();
+	private static long SLEEP_TIME = 3;
 
 	/** Called when the activity is first created. */
 
@@ -24,9 +30,6 @@ public class Splash_Screen extends Activity {
 		window.setFormat(PixelFormat.RGBA_8888);
 	}
 
-	private static String TAG = Splash_Screen.class.getName();
-	private static long SLEEP_TIME = 3;
-
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -35,9 +38,11 @@ public class Splash_Screen extends Activity {
 		StartAnimations();
 		IntentLauncher launcher = new IntentLauncher();
 		launcher.start();
-
 	}
 
+	/**
+	 * Metodo encargado de comenzar las animaciones del splash.
+	 */
 	private void StartAnimations() {
 
 		Animation anim = AnimationUtils.loadAnimation(this,R.anim.alpha);
@@ -51,7 +56,6 @@ public class Splash_Screen extends Activity {
 		//ImageView iv = (ImageView) findViewById(R.id.logo);
 		//iv.clearAnimation();
 		//iv.startAnimation(anim);
-
 	}
 
 	@Override
@@ -63,18 +67,17 @@ public class Splash_Screen extends Activity {
 	   startActivity(setIntent);
 	}
 
+	/**
+	 * Clase encargada de la creacion del thread del splash.
+	 */
 	private class IntentLauncher extends Thread {
 
 		@Override
 		public void run() {
 			try {
-
-				Thread.sleep(SLEEP_TIME*1000);
-
+				Thread.sleep(SLEEP_TIME * 1000);
 			} catch (Exception e) {
-
 				Log.e(TAG, e.getMessage());
-
 			}
 
 			Intent intent = new Intent(Splash_Screen.this, Home_Screen.class);
