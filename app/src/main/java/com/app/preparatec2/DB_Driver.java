@@ -128,7 +128,7 @@ public class DB_Driver extends SQLiteOpenHelper{
 	public List<Question_Template> getItemInfo() {
 
 		List<Question_Template> quesList = new ArrayList<Question_Template>();
-		String selectQuery = "SELECT option1,option2,option3,option4,option5,answer FROM " + TABLE_INFO;
+		String selectQuery = "SELECT * FROM " + TABLE_INFO;
 
 		mainDataBase =this.getReadableDatabase();
 		Cursor cursor = mainDataBase.rawQuery(selectQuery, null); // resultados de la base de datos
@@ -155,7 +155,7 @@ public class DB_Driver extends SQLiteOpenHelper{
 	public List<Question_Template> getItems() {
 
 		List<Question_Template> quesList = new ArrayList<Question_Template>();
-		String selectQuery = "SELECT item FROM " + TABLE_ITEMS;
+		String selectQuery = "SELECT * FROM " + TABLE_ITEMS;
 
 		mainDataBase =this.getReadableDatabase();
 		Cursor cursor = mainDataBase.rawQuery(selectQuery, null);
