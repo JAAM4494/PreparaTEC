@@ -11,7 +11,7 @@
         android:layout_height="150dp"
         android:gravity="center"
         android:text="En un local comercial, por la compra de un artículo A que cuesta $50 000, se le ofrece un descuento del 7% y, por la de un artículo B con valor de $30 000, se le ofrece un descuento del 5%. Sin embargo, en una promoción, si se compran los dos artículos juntos, se ofrece un descuento del 10% sobre el monto total"
-        android:textSize="10dp"
+        android:textSize="12dp"
         android:textColor="#414042"
         android:layout_below="@+id/tRetop"
         android:layout_centerHorizontal="true" />
@@ -25,7 +25,8 @@
         android:layout_above="@+id/button2"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="5dp"
-        android:textColor="#414042" />
+        android:textColor="#414042"
+        android:textSize="13dp" />
 
     <Button
         android:id="@+id/button2"
@@ -36,7 +37,8 @@
         android:layout_above="@+id/button3"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="5dp"
-        android:textColor="#414042" />
+        android:textColor="#414042"
+        android:textSize="13dp" />
 
     <Button
         android:id="@+id/button3"
@@ -47,7 +49,8 @@
         android:layout_above="@+id/button5"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="5dp"
-        android:textColor="#414042" />
+        android:textColor="#414042"
+        android:textSize="13dp" />
 
     <Button
         android:id="@+id/button4"
@@ -58,7 +61,8 @@
         android:layout_above="@+id/cronomTextV"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="0dp"
-        android:textColor="#414042" />
+        android:textColor="#414042"
+        android:textSize="13dp" />
 
     <Button
         android:id="@+id/button5"
@@ -69,7 +73,8 @@
         android:layout_above="@+id/button4"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="5dp"
-        android:textColor="#414042" />
+        android:textColor="#414042"
+        android:textSize="13dp" />
 
     <TextView
         android:id="@+id/cronomTextV"

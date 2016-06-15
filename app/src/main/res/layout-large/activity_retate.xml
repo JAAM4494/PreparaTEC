@@ -8,7 +8,7 @@
     <TextView
         android:id="@+id/textView1"
         android:layout_width="570dp"
-        android:layout_height="330dp"
+        android:layout_height="300dp"
         android:gravity="center"
         android:text="En un local comercial, por la compra de un artículo A que cuesta $50 000, se le ofrece un descuento del 7% y, por la de un artículo B con valor de $30 000, se le ofrece un descuento del 5%. Sin embargo, en una promoción, si se compran los dos artículos juntos, se ofrece un descuento del 10% sobre el monto total"
         android:textSize="25dp"
@@ -22,7 +22,7 @@
         android:layout_height="80dp"
         android:background="@drawable/cust_pregunta"
         android:text="opcion1"
-        android:textSize="35dp"
+        android:textSize="30dp"
         android:textColor="#414042"
         android:layout_centerVertical="true"
         android:layout_alignLeft="@+id/button2"
@@ -35,7 +35,7 @@
         android:layout_height="80dp"
         android:background="@drawable/cust_pregunta"
         android:text="opcion2"
-        android:textSize="35dp"
+        android:textSize="30dp"
         android:textColor="#414042"
         android:layout_below="@+id/button1"
         android:layout_alignLeft="@+id/button3"
@@ -49,7 +49,7 @@
         android:background="@drawable/cust_pregunta"
         android:text="opcion3"
         android:textColor="#414042"
-        android:textSize="35dp"
+        android:textSize="30dp"
         android:layout_below="@+id/button2"
         android:layout_alignLeft="@+id/button5"
         android:layout_alignStart="@+id/button5"
@@ -62,7 +62,7 @@
         android:background="@drawable/cust_pregunta"
         android:text="opcion4"
         android:textColor="#414042"
-        android:textSize="35dp"
+        android:textSize="30dp"
         android:layout_below="@+id/button5"
         android:layout_alignLeft="@+id/button5"
         android:layout_alignStart="@+id/button5" />
@@ -74,7 +74,7 @@
         android:background="@drawable/cust_pregunta"
         android:text="opcion5"
         android:textColor="#414042"
-        android:textSize="35dp"
+        android:textSize="30dp"
         android:layout_below="@+id/button3"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="8dp" />
@@ -92,12 +92,12 @@
         android:layout_marginBottom="10dp" />
 
     <TextView
-        android:layout_width="90dp"
-        android:layout_height="50dp"
+        android:layout_width="95dp"
+        android:layout_height="55dp"
         android:text="Reto"
         android:id="@+id/tRetop"
         android:textColor="#161638"
-        android:textSize="40dp"
+        android:textSize="45dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" /><![CDATA[
 

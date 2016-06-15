@@ -86,7 +86,7 @@ public class Dare_Screen extends Activity implements View.OnClickListener,Dialog
 					cronomTV.setTextColor(Color.parseColor("#FF0000"));
 				}
 				else {
-				cronomTV.setTextColor(Color.parseColor("#FFFFFF"));
+				cronomTV.setTextColor(Color.parseColor("#414042"));
 				}
 				cronomTV.setText(tmp);
 			}

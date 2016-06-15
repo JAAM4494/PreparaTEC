@@ -17,7 +17,7 @@
         android:text="Práctica"
         android:textSize="30dp"
         android:textColor="#414042"
-        android:paddingRight="180dp"
+        android:paddingRight="111dp"
         android:layout_above="@+id/btnReta"
         android:layout_centerHorizontal="true" />
 
@@ -29,7 +29,7 @@
         android:text="Reto"
         android:textColor="#414042"
         android:textSize="30dp"
-        android:paddingRight="235dp"
+        android:paddingRight="160dp"
         android:paddingBottom="10dp"
         android:layout_above="@+id/btnAcerca"
         android:layout_centerHorizontal="true" />
@@ -43,7 +43,7 @@
         android:text="Acerca"
         android:textColor="#414042"
         android:textSize="30dp"
-        android:paddingRight="200dp"
+        android:paddingRight="115dp"
         android:textAlignment="center"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true" />

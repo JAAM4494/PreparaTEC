@@ -11,45 +11,41 @@
 
     <Button
         android:id="@+id/btnPrepara"
-        android:layout_width="match_parent"
+        android:layout_width="700dp"
         android:layout_height="100dp"
         android:background="@drawable/preparate2tab"
-        android:layout_above="@+id/btnAcerca"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="105dp"
         android:text="Práctica"
-        android:textSize="35dp"
+        android:textSize="40dp"
         android:textColor="#414042"
-        android:paddingRight="300dp" />
+        android:paddingRight="280dp"
+        android:layout_above="@+id/btnReta"
+        android:layout_centerHorizontal="true" />
 
     <Button
         android:id="@+id/btnReta"
-        android:layout_width="match_parent"
+        android:layout_width="700dp"
         android:layout_height="100dp"
         android:background="@drawable/retate2tab"
         android:text="Reto"
-        android:layout_above="@+id/btnAcerca"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
         android:textColor="#414042"
-        android:textSize="35dp"
-        android:paddingRight="350dp"
-        android:paddingBottom="25dp"
-        android:layout_alignParentLeft="true" />
+        android:textSize="40dp"
+        android:paddingRight="340dp"
+        android:paddingBottom="20dp"
+        android:layout_above="@+id/btnAcerca"
+        android:layout_alignLeft="@+id/btnPrepara"
+        android:layout_alignStart="@+id/btnPrepara" />
 
     <Button
         android:id="@+id/btnAcerca"
-        android:layout_width="match_parent"
+        android:layout_width="700dp"
         android:layout_height="100dp"
         android:background="@drawable/acercatab"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="95dp"
-        android:text="Acercaw"
+        android:layout_marginBottom="102dp"
+        android:text="Acerca"
         android:textColor="#414042"
-        android:textSize="35dp"
-        android:paddingRight="300dp" />
+        android:textSize="40dp"
+        android:paddingRight="300dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>
