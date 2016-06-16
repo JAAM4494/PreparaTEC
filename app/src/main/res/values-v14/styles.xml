@@ -6,6 +6,9 @@
         res/values-v11/styles.xml on API 14+ devices.
     -->
     <style name="AppBaseTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!--La siguiente linea previene que los botones salgan con las letras en mayúscula.
+        Para que funcione se tuvo que subir el min API LEVEL del 8 al 16  -->
+        <item name="android:textAllCaps">false</item>
         <!-- API 14 theme customizations can go here. -->
     </style>
 

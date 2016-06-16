@@ -382,12 +382,12 @@
                 "from": {
                     "file": "C:\\Users\\pablo\\Documents\\GitHub\\PreparaTEC\\app\\src\\main\\res\\values-v11\\styles.xml",
                     "position": {
-                        "startLine": 19,
+                        "startLine": 22,
                         "startColumn": 4,
-                        "startOffset": 817,
-                        "endLine": 21,
+                        "startOffset": 1044,
+                        "endLine": 24,
                         "endColumn": 12,
-                        "endOffset": 978
+                        "endOffset": 1205
                     }
                 }
             },
@@ -396,9 +396,9 @@
                     "startLine": 174,
                     "startColumn": 4,
                     "startOffset": 12206,
-                    "endLine": 180,
+                    "endLine": 183,
                     "endColumn": 12,
-                    "endOffset": 12647
+                    "endOffset": 12871
                 },
                 "from": {
                     "file": "C:\\Users\\pablo\\Documents\\GitHub\\PreparaTEC\\app\\src\\main\\res\\values-v11\\styles.xml",
@@ -406,20 +406,20 @@
                         "startLine": 11,
                         "startColumn": 4,
                         "startOffset": 362,
-                        "endLine": 17,
+                        "endLine": 20,
                         "endColumn": 12,
-                        "endOffset": 809
+                        "endOffset": 1036
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 181,
+                    "startLine": 184,
                     "startColumn": 4,
-                    "startOffset": 12652,
-                    "endLine": 226,
+                    "startOffset": 12876,
+                    "endLine": 229,
                     "endColumn": 12,
-                    "endOffset": 16284
+                    "endOffset": 16508
                 },
                 "from": {
                     "file": "C:\\Users\\pablo\\Documents\\GitHub\\PreparaTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values-v11\\values.xml",
@@ -435,12 +435,12 @@
             },
             {
                 "to": {
-                    "startLine": 227,
+                    "startLine": 230,
                     "startColumn": 4,
-                    "startOffset": 16289,
-                    "endLine": 272,
+                    "startOffset": 16513,
+                    "endLine": 275,
                     "endColumn": 12,
-                    "endOffset": 19935
+                    "endOffset": 20159
                 },
                 "from": {
                     "file": "C:\\Users\\pablo\\Documents\\GitHub\\PreparaTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values-v11\\values.xml",
@@ -456,12 +456,12 @@
             },
             {
                 "to": {
-                    "startLine": 273,
+                    "startLine": 276,
                     "startColumn": 4,
-                    "startOffset": 19940,
-                    "endLine": 319,
+                    "startOffset": 20164,
+                    "endLine": 322,
                     "endColumn": 12,
-                    "endOffset": 23711
+                    "endOffset": 23935
                 },
                 "from": {
                     "file": "C:\\Users\\pablo\\Documents\\GitHub\\PreparaTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values-v11\\values.xml",
@@ -477,12 +477,12 @@
             },
             {
                 "to": {
-                    "startLine": 320,
+                    "startLine": 323,
                     "startColumn": 4,
-                    "startOffset": 23716,
-                    "endLine": 366,
+                    "startOffset": 23940,
+                    "endLine": 369,
                     "endColumn": 12,
-                    "endOffset": 27501
+                    "endOffset": 27725
                 },
                 "from": {
                     "file": "C:\\Users\\pablo\\Documents\\GitHub\\PreparaTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\values-v11\\values.xml",

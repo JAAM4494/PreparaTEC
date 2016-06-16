@@ -20,7 +20,8 @@
         android:paddingRight="75dp"
         android:layout_marginBottom="134dp"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:capitalize="none" />
 
     <Button
         android:id="@+id/btnReta"
@@ -35,7 +36,8 @@
         android:layout_marginTop="55dp"
         android:layout_alignTop="@+id/btnPrepara"
         android:layout_alignLeft="@+id/btnPrepara"
-        android:layout_alignStart="@+id/btnPrepara" />
+        android:layout_alignStart="@+id/btnPrepara"
+        android:capitalize="none" />
 
     <Button
         android:id="@+id/btnAcerca"
@@ -47,6 +49,7 @@
         android:textSize="20dp"
         android:paddingRight="90dp"
         android:layout_below="@+id/btnReta"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:capitalize="none" />
 
 </RelativeLayout>

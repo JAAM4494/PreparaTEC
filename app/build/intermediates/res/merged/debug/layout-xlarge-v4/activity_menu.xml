@@ -19,7 +19,8 @@
         android:textColor="#414042"
         android:paddingRight="280dp"
         android:layout_above="@+id/btnReta"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:capitalize="none" />
 
     <Button
         android:id="@+id/btnReta"
@@ -33,7 +34,8 @@
         android:paddingBottom="20dp"
         android:layout_above="@+id/btnAcerca"
         android:layout_alignLeft="@+id/btnPrepara"
-        android:layout_alignStart="@+id/btnPrepara" />
+        android:layout_alignStart="@+id/btnPrepara"
+        android:capitalize="none" />
 
     <Button
         android:id="@+id/btnAcerca"
@@ -46,6 +48,7 @@
         android:textSize="40dp"
         android:paddingRight="300dp"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:capitalize="none" />
 
 </RelativeLayout>

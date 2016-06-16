@@ -21,50 +21,65 @@
         android:layout_width="250dp"
         android:layout_height="50dp"
         android:background="@drawable/cust_pregunta"
-        android:text="opcion1"
+        android:text="la longitud de la cerca en total no sobrepasa los 500 metros."
         android:layout_above="@+id/button2"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="5dp" />
+        android:layout_marginBottom="5dp"
+        android:textSize="12dp"
+        android:textStyle="normal"
+        android:capitalize="none" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="250dp"
         android:layout_height="50dp"
         android:background="@drawable/cust_pregunta"
-        android:text="opcion2"
+        android:text="la longitud de la cerca en total no sobrepasa los 500 metros."
         android:layout_above="@+id/button3"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="5dp" />
+        android:layout_marginBottom="5dp"
+        android:textSize="12dp"
+        android:textStyle="normal"
+        android:capitalize="none" />
 
     <Button
         android:id="@+id/button3"
         android:layout_width="250dp"
         android:layout_height="50dp"
         android:background="@drawable/cust_pregunta"
-        android:text="opcion3"
+        android:text="la longitud de la cerca en total no sobrepasa los 500 metros.n3"
         android:layout_above="@+id/button5"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="5dp" />
+        android:layout_marginBottom="5dp"
+        android:textSize="12dp"
+        android:textStyle="normal"
+        android:capitalize="none" />
 
     <Button
         android:id="@+id/button4"
         android:layout_width="250dp"
         android:layout_height="50dp"
         android:background="@drawable/cust_pregunta"
-        android:text="opcion4"
+        android:text="la longitud de la cerca en total no sobrepasa los 500 metros."
         android:layout_above="@+id/cronomTextV"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="5dp" />
+        android:layout_marginBottom="5dp"
+        android:textSize="12dp"
+        android:textStyle="normal"
+        android:capitalize="none" />
 
     <Button
         android:id="@+id/button5"
         android:layout_width="250dp"
         android:layout_height="50dp"
         android:background="@drawable/cust_pregunta"
-        android:text="opcion5"
+        android:text="la longitud de la cerca en total no sobrepasa los 500 metros."
         android:layout_above="@+id/button4"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="5dp" />
+        android:layout_marginBottom="5dp"
+        android:textSize="12dp"
+        android:textStyle="normal"
+        android:capitalize="none" />
 
     <TextView
         android:id="@+id/cronomTextV"
