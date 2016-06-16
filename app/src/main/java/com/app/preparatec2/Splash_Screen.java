@@ -19,7 +19,7 @@ public class Splash_Screen extends Activity {
 	private TextView firstTV;
 
 	private static String TAG = Splash_Screen.class.getName();
-	private static long SLEEP_TIME = 3;
+	private static long SLEEP_TIME = 0;
 
 	/** Called when the activity is first created. */
 

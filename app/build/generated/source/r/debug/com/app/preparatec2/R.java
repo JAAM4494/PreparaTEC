@@ -1323,16 +1323,15 @@ containing a value of this type.
         public static final int fondo3=0x7f02003d;
         public static final int ic_launcher=0x7f02003e;
         public static final int imagennula=0x7f02003f;
-        public static final int logo=0x7f020040;
-        public static final int pregunta1=0x7f020041;
-        public static final int pregunta2=0x7f020042;
-        public static final int preparate1=0x7f020043;
-        public static final int preparate2=0x7f020044;
-        public static final int preparate2tab=0x7f020045;
-        public static final int radialback=0x7f020046;
-        public static final int retate1=0x7f020047;
-        public static final int retate2=0x7f020048;
-        public static final int retate2tab=0x7f020049;
+        public static final int pregunta1=0x7f020040;
+        public static final int pregunta2=0x7f020041;
+        public static final int preparate1=0x7f020042;
+        public static final int preparate2=0x7f020043;
+        public static final int preparate2tab=0x7f020044;
+        public static final int radialback=0x7f020045;
+        public static final int retate1=0x7f020046;
+        public static final int retate2=0x7f020047;
+        public static final int retate2tab=0x7f020048;
     }
     public static final class id {
         public static final int action_bar=0x7f0b0031;

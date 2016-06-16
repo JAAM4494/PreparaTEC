@@ -32,10 +32,6 @@
         "source": "C:\\Users\\pablo\\Documents\\GitHub\\PreparaTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\drawable-hdpi\\abc_ic_search_api_mtrl_alpha.png"
     },
     {
-        "merged": "C:\\Users\\pablo\\Documents\\GitHub\\PreparaTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\logo.png",
-        "source": "C:\\Users\\pablo\\Documents\\GitHub\\PreparaTEC\\app\\src\\main\\res\\drawable-hdpi\\logo.png"
-    },
-    {
         "merged": "C:\\Users\\pablo\\Documents\\GitHub\\PreparaTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\radialback.xml",
         "source": "C:\\Users\\pablo\\Documents\\GitHub\\PreparaTEC\\app\\src\\main\\res\\drawable-hdpi\\radialback.xml"
     },
