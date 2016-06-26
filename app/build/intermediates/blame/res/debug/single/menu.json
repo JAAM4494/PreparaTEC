@@ -1,5 +1,17 @@
 [
     {
+        "merged": "C:\\Users\\JAAM\\AndroidStudioProjects\\PreparaTEC\\app\\build\\intermediates\\res\\merged\\debug\\menu\\normal.xml",
+        "source": "C:\\Users\\JAAM\\AndroidStudioProjects\\PreparaTEC\\app\\src\\main\\res\\menu\\normal.xml"
+    },
+    {
+        "merged": "C:\\Users\\JAAM\\AndroidStudioProjects\\PreparaTEC\\app\\build\\intermediates\\res\\merged\\debug\\menu\\acerca_screen.xml",
+        "source": "C:\\Users\\JAAM\\AndroidStudioProjects\\PreparaTEC\\app\\src\\main\\res\\menu\\acerca_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\JAAM\\AndroidStudioProjects\\PreparaTEC\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu.xml",
+        "source": "C:\\Users\\JAAM\\AndroidStudioProjects\\PreparaTEC\\app\\src\\main\\res\\menu\\menu.xml"
+    },
+    {
         "merged": "C:\\Users\\pablo\\Documents\\GitHub\\PreparaTEC\\app\\build\\intermediates\\res\\merged\\debug\\menu\\normal.xml",
         "source": "C:\\Users\\pablo\\Documents\\GitHub\\PreparaTEC\\app\\src\\main\\res\\menu\\normal.xml"
     },
