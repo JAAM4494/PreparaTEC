@@ -9,30 +9,26 @@
         android:id="@+id/textView1"
         android:layout_width="500dp"
         android:layout_height="300dp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="30dp"
         android:gravity="center"
         android:text="PreparaTEC es una herramienta informática que permite al estudiante prepararse para prueba de aptitud académica del Tecnológico de Costa Rica. La aplicación contendrá información basada en las guías de preparación, con el fin de brindar al estudiante una noción sobre la naturaleza de los ítems de dicha prueba."
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:textColor="#414042"
         android:textSize="25dp"
         android:textIsSelectable="false"
-        android:layout_alignParentEnd="false" />
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="500dp"
         android:layout_height="200dp"
-        android:layout_alignLeft="@+id/textView1"
-        android:layout_below="@+id/textView1"
-        android:layout_marginTop="15dp"
         android:gravity="center"
         android:text="Desarrolladores: Jose Ariel Arias Méndez Edwin Vásquez Leiva José Pablo Fernández Luis Alejandro Corrales Gabriela Delgado Quesada C 2014-2016 PreparaTEC Todos los derechos reservados"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:textColor="#414042"
         android:textSize="25dp"
-        android:layout_marginBottom="5dp" />
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true" />
 
     <ImageView
         android:layout_width="250dp"
@@ -41,17 +37,16 @@
         android:src="@drawable/logo_gt"
         android:contentDescription="logogt"
         android:layout_alignParentBottom="true"
-        android:layout_alignLeft="@+id/textView2"
-        android:layout_alignStart="@+id/textView2" />
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/logotec"
-        android:layout_alignParentBottom="true"
-        android:layout_toRightOf="@+id/logogt"
-        android:layout_toEndOf="@+id/logogt"
         android:src="@drawable/logo_tec"
-        android:layout_alignTop="@+id/logogt" />
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 
 </RelativeLayout>
