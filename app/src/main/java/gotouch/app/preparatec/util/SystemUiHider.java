@@ -1,4 +1,4 @@
-package com.app.preparatec2.util;
+package gotouch.app.preparatec.util;
 
 import android.app.Activity;
 import android.os.Build;

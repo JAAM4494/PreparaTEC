@@ -1,4 +1,4 @@
-package com.app.preparatec2;
+package gotouch.app.preparatec;
 
 
 /**

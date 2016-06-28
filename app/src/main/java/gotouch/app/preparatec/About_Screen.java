@@ -1,9 +1,11 @@
-package com.app.preparatec2;
+package gotouch.app.preparatec;
 
 import android.app.Activity;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.widget.TextView;
+
+import gotouch.app.preparatec.R;
 
 /**
  * Clase que contiene la información de la pantalla de acerca.

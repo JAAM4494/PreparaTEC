@@ -1,4 +1,4 @@
-package com.app.preparatec2;
+package gotouch.app.preparatec;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -8,9 +8,10 @@ import android.util.Log;
 import android.view.Window;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
-import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+
+import gotouch.app.preparatec.R;
 
 /**
  * Clase encargada de la pantalla de bienvenida.

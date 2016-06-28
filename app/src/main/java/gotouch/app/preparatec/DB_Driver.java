@@ -1,4 +1,4 @@
-package com.app.preparatec2;
+package gotouch.app.preparatec;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
@@ -12,6 +12,8 @@ import android.database.SQLException;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteException;
 import android.database.sqlite.SQLiteOpenHelper;
+
+import gotouch.app.preparatec.Question_Template;
 
 /**
  * Clase que permite la comunicación con la base de datos de la app.

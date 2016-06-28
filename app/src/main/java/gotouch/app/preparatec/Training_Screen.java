@@ -1,4 +1,4 @@
-package com.app.preparatec2;
+package gotouch.app.preparatec;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -20,6 +20,8 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 import android.database.SQLException;
+
+import gotouch.app.preparatec.R;
 
 
 /**

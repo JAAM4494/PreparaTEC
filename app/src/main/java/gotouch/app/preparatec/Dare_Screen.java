@@ -1,4 +1,4 @@
-package com.app.preparatec2;
+package gotouch.app.preparatec;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -16,6 +16,11 @@ import android.view.Menu;
 import android.view.View;
 import android.widget.*;
 import android.os.*;
+
+import gotouch.app.preparatec.R;
+
+import gotouch.app.preparatec.DB_Driver;
+import gotouch.app.preparatec.Question_Template;
 
 /**
  * Clase encargada del modo reto.

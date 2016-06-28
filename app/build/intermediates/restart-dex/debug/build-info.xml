@@ -2,29 +2,29 @@
 <instant-run
     abi="x86"
     api-level="23"
-    density="xhdpi"
+    density="ldpi"
     format="7"
-    timestamp="19887397858628"
+    timestamp="20806215834713"
     token="-3880988042519998366" >
 
     <task
         name="javac"
-        duration="3201" />
+        duration="5323" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="487" />
+        duration="2560" />
     <task
         name="verifier"
-        duration="107" />
+        duration="172" />
 
     <artifact
         location="C:\Users\pablo\Documents\GitHub\PreparaTEC\app\build\outputs\apk\app-debug.apk"
         type="MAIN" />
 
-    <build timestamp="19887397858628" >
+    <build timestamp="20806215834713" >
         <artifact
             location="C:\Users\pablo\Documents\GitHub\PreparaTEC\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
